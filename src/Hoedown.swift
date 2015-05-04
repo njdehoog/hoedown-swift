@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Hoedown
 
 class Hoedown {
     class func renderHTMLForMarkdown(string: String, flags: HoedownHTMLFlags = .None, extensions: HoedownExtensions = .None) -> String? {
