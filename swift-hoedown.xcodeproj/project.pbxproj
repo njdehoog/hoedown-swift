@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDD682131AF7E38F00C2B1DF /* swift-hoedown.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD682121AF7E38F00C2B1DF /* swift-hoedown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDD682191AF7E38F00C2B1DF /* swift_hoedown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD6820D1AF7E38F00C2B1DF /* swift_hoedown.framework */; };
+		FDD682201AF7E38F00C2B1DF /* swift_hoedownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6821F1AF7E38F00C2B1DF /* swift_hoedownTests.swift */; };
+		FDD6822C1AF7E44900C2B1DF /* Hoedown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6822B1AF7E44900C2B1DF /* Hoedown.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDD6821A1AF7E38F00C2B1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDD682041AF7E38F00C2B1DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD6820C1AF7E38F00C2B1DF;
+			remoteInfo = "swift-hoedown";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDD6820D1AF7E38F00C2B1DF /* swift_hoedown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = swift_hoedown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD682111AF7E38F00C2B1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD682121AF7E38F00C2B1DF /* swift-hoedown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-hoedown.h"; sourceTree = "<group>"; };
+		FDD682181AF7E38F00C2B1DF /* swift-hoedownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-hoedownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD6821E1AF7E38F00C2B1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD6821F1AF7E38F00C2B1DF /* swift_hoedownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_hoedownTests.swift; sourceTree = "<group>"; };
+		FDD6822B1AF7E44900C2B1DF /* Hoedown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hoedown.swift; path = source/Hoedown.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD682091AF7E38F00C2B1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD682151AF7E38F00C2B1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD682191AF7E38F00C2B1DF /* swift_hoedown.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDD682031AF7E38F00C2B1DF = {
+			isa = PBXGroup;
+			children = (
+				FDD6820F1AF7E38F00C2B1DF /* swift-hoedown */,
+				FDD6821C1AF7E38F00C2B1DF /* swift-hoedownTests */,
+				FDD6820E1AF7E38F00C2B1DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD6820E1AF7E38F00C2B1DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6820D1AF7E38F00C2B1DF /* swift_hoedown.framework */,
+				FDD682181AF7E38F00C2B1DF /* swift-hoedownTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD6820F1AF7E38F00C2B1DF /* swift-hoedown */ = {
+			isa = PBXGroup;
+			children = (
+				FDD682121AF7E38F00C2B1DF /* swift-hoedown.h */,
+				FDD6822B1AF7E44900C2B1DF /* Hoedown.swift */,
+				FDD682101AF7E38F00C2B1DF /* Supporting Files */,
+			);
+			path = "swift-hoedown";
+			sourceTree = "<group>";
+		};
+		FDD682101AF7E38F00C2B1DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDD682111AF7E38F00C2B1DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDD6821C1AF7E38F00C2B1DF /* swift-hoedownTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6821F1AF7E38F00C2B1DF /* swift_hoedownTests.swift */,
+				FDD6821D1AF7E38F00C2B1DF /* Supporting Files */,
+			);
+			path = "swift-hoedownTests";
+			sourceTree = "<group>";
+		};
+		FDD6821D1AF7E38F00C2B1DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6821E1AF7E38F00C2B1DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FDD6820A1AF7E38F00C2B1DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD682131AF7E38F00C2B1DF /* swift-hoedown.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FDD6820C1AF7E38F00C2B1DF /* swift-hoedown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD682231AF7E38F00C2B1DF /* Build configuration list for PBXNativeTarget "swift-hoedown" */;
+			buildPhases = (
+				FDD682081AF7E38F00C2B1DF /* Sources */,
+				FDD682091AF7E38F00C2B1DF /* Frameworks */,
+				FDD6820A1AF7E38F00C2B1DF /* Headers */,
+				FDD6820B1AF7E38F00C2B1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-hoedown";
+			productName = "swift-hoedown";
+			productReference = FDD6820D1AF7E38F00C2B1DF /* swift_hoedown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDD682171AF7E38F00C2B1DF /* swift-hoedownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD682261AF7E38F00C2B1DF /* Build configuration list for PBXNativeTarget "swift-hoedownTests" */;
+			buildPhases = (
+				FDD682141AF7E38F00C2B1DF /* Sources */,
+				FDD682151AF7E38F00C2B1DF /* Frameworks */,
+				FDD682161AF7E38F00C2B1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD6821B1AF7E38F00C2B1DF /* PBXTargetDependency */,
+			);
+			name = "swift-hoedownTests";
+			productName = "swift-hoedownTests";
+			productReference = FDD682181AF7E38F00C2B1DF /* swift-hoedownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD682041AF7E38F00C2B1DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Invisible Pixel";
+				TargetAttributes = {
+					FDD6820C1AF7E38F00C2B1DF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					FDD682171AF7E38F00C2B1DF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FDD682071AF7E38F00C2B1DF /* Build configuration list for PBXProject "swift-hoedown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDD682031AF7E38F00C2B1DF;
+			productRefGroup = FDD6820E1AF7E38F00C2B1DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD6820C1AF7E38F00C2B1DF /* swift-hoedown */,
+				FDD682171AF7E38F00C2B1DF /* swift-hoedownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD6820B1AF7E38F00C2B1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD682161AF7E38F00C2B1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD682081AF7E38F00C2B1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD6822C1AF7E44900C2B1DF /* Hoedown.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD682141AF7E38F00C2B1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD682201AF7E38F00C2B1DF /* swift_hoedownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDD6821B1AF7E38F00C2B1DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDD6820C1AF7E38F00C2B1DF /* swift-hoedown */;
+			targetProxy = FDD6821A1AF7E38F00C2B1DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDD682211AF7E38F00C2B1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDD682221AF7E38F00C2B1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDD682241AF7E38F00C2B1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "swift-hoedown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = swift_hoedown;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FDD682251AF7E38F00C2B1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "swift-hoedown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = swift_hoedown;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FDD682271AF7E38F00C2B1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "swift-hoedownTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDD682281AF7E38F00C2B1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "swift-hoedownTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD682071AF7E38F00C2B1DF /* Build configuration list for PBXProject "swift-hoedown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD682211AF7E38F00C2B1DF /* Debug */,
+				FDD682221AF7E38F00C2B1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD682231AF7E38F00C2B1DF /* Build configuration list for PBXNativeTarget "swift-hoedown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD682241AF7E38F00C2B1DF /* Debug */,
+				FDD682251AF7E38F00C2B1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD682261AF7E38F00C2B1DF /* Build configuration list for PBXNativeTarget "swift-hoedownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD682271AF7E38F00C2B1DF /* Debug */,
+				FDD682281AF7E38F00C2B1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD682041AF7E38F00C2B1DF /* Project object */;
+}
