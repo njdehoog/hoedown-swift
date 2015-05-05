@@ -137,9 +137,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		FDD682361AF7E89800C2B1DF /* hoedown */ = {
+		FDD682361AF7E89800C2B1DF /* Hoedown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDD6824D1AF7E89900C2B1DF /* Build configuration list for PBXNativeTarget "hoedown" */;
+			buildConfigurationList = FDD6824D1AF7E89900C2B1DF /* Build configuration list for PBXNativeTarget "Hoedown" */;
 			buildPhases = (
 				FDD682321AF7E89800C2B1DF /* Sources */,
 				FDD682331AF7E89800C2B1DF /* Frameworks */,
@@ -150,7 +150,7 @@
 			);
 			dependencies = (
 			);
-			name = hoedown;
+			name = Hoedown;
 			productName = hoedown;
 			productReference = FDD682371AF7E89800C2B1DF /* hoedown.framework */;
 			productType = "com.apple.product-type.framework";
@@ -181,7 +181,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDD682361AF7E89800C2B1DF /* hoedown */,
+				FDD682361AF7E89800C2B1DF /* Hoedown */,
 			);
 		};
 /* End PBXProject section */
@@ -348,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDD6824D1AF7E89900C2B1DF /* Build configuration list for PBXNativeTarget "hoedown" */ = {
+		FDD6824D1AF7E89900C2B1DF /* Build configuration list for PBXNativeTarget "Hoedown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDD6824E1AF7E89900C2B1DF /* Debug */,

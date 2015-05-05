@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FDA1F0F11AF8E8060037168C /* hoedown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA1F0F01AF8E8060037168C /* hoedown.framework */; };
+		FDA1F0FD1AF8F6770037168C /* Hoedown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA1F0FC1AF8F6770037168C /* Hoedown.framework */; };
 		FDD682131AF7E38F00C2B1DF /* swift-hoedown.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD682121AF7E38F00C2B1DF /* swift-hoedown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDD6822C1AF7E44900C2B1DF /* Hoedown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6822B1AF7E44900C2B1DF /* Hoedown.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FDA1F0F01AF8E8060037168C /* hoedown.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = hoedown.framework; path = ../Carthage/Build/Mac/hoedown.framework; sourceTree = "<group>"; };
+		FDA1F0FC1AF8F6770037168C /* Hoedown.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hoedown.framework; path = Carthage/Build/Mac/Hoedown.framework; sourceTree = SOURCE_ROOT; };
 		FDD6820D1AF7E38F00C2B1DF /* swift_hoedown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = swift_hoedown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD682111AF7E38F00C2B1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDD682121AF7E38F00C2B1DF /* swift-hoedown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-hoedown.h"; sourceTree = "<group>"; };
@@ -25,7 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDA1F0F11AF8E8060037168C /* hoedown.framework in Frameworks */,
+				FDA1F0FD1AF8F6770037168C /* Hoedown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +61,7 @@
 		FDD682101AF7E38F00C2B1DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FDA1F0F01AF8E8060037168C /* hoedown.framework */,
+				FDA1F0FC1AF8F6770037168C /* Hoedown.framework */,
 				FDD682111AF7E38F00C2B1DF /* Info.plist */,
 			);
 			name = "Supporting Files";
