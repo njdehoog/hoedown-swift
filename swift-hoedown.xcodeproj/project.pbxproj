@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD415F501AF834E8008753D8 /* hoedown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD415F4F1AF834E8008753D8 /* hoedown.framework */; };
 		FDD682131AF7E38F00C2B1DF /* swift-hoedown.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD682121AF7E38F00C2B1DF /* swift-hoedown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDD6822C1AF7E44900C2B1DF /* Hoedown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6822B1AF7E44900C2B1DF /* Hoedown.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FD415F4F1AF834E8008753D8 /* hoedown.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = hoedown.framework; sourceTree = SOURCE_ROOT; };
 		FDD6820D1AF7E38F00C2B1DF /* swift_hoedown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = swift_hoedown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD682111AF7E38F00C2B1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDD682121AF7E38F00C2B1DF /* swift-hoedown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-hoedown.h"; sourceTree = "<group>"; };
@@ -25,7 +23,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD415F501AF834E8008753D8 /* hoedown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +50,6 @@
 			children = (
 				FDD682121AF7E38F00C2B1DF /* swift-hoedown.h */,
 				FDD6822B1AF7E44900C2B1DF /* Hoedown.swift */,
-				FD415F4F1AF834E8008753D8 /* hoedown.framework */,
 				FDD682101AF7E38F00C2B1DF /* Supporting Files */,
 			);
 			path = "swift-hoedown";
@@ -251,6 +247,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "swift-hoedown/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -270,6 +267,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "swift-hoedown/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
