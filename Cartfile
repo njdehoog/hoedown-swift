@@ -1,1 +1,1 @@
-git "file:///Users/njdehoog/Projects/hoedown" "carthage"
+github "njdehoog/hoedown" "master"
