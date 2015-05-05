@@ -256,6 +256,7 @@
 				INFOPLIST_FILE = "swift-hoedown/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_MODULE_NAME = SwiftHoedown;
 				PRODUCT_NAME = swift_hoedown;
 				SKIP_INSTALL = YES;
 			};
@@ -276,6 +277,7 @@
 				INFOPLIST_FILE = "swift-hoedown/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_MODULE_NAME = SwiftHoedown;
 				PRODUCT_NAME = swift_hoedown;
 				SKIP_INSTALL = YES;
 			};
