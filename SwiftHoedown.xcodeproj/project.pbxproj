@@ -81,9 +81,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		FDD6820C1AF7E38F00C2B1DF /* swift-hoedown */ = {
+		FDD6820C1AF7E38F00C2B1DF /* SwiftHoedown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDD682231AF7E38F00C2B1DF /* Build configuration list for PBXNativeTarget "swift-hoedown" */;
+			buildConfigurationList = FDD682231AF7E38F00C2B1DF /* Build configuration list for PBXNativeTarget "SwiftHoedown" */;
 			buildPhases = (
 				FDD682081AF7E38F00C2B1DF /* Sources */,
 				FDD682091AF7E38F00C2B1DF /* Frameworks */,
@@ -94,7 +94,7 @@
 			);
 			dependencies = (
 			);
-			name = "swift-hoedown";
+			name = SwiftHoedown;
 			productName = "swift-hoedown";
 			productReference = FDD6820D1AF7E38F00C2B1DF /* swift_hoedown.framework */;
 			productType = "com.apple.product-type.framework";
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FDD682071AF7E38F00C2B1DF /* Build configuration list for PBXProject "swift-hoedown" */;
+			buildConfigurationList = FDD682071AF7E38F00C2B1DF /* Build configuration list for PBXProject "SwiftHoedown" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -125,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDD6820C1AF7E38F00C2B1DF /* swift-hoedown */,
+				FDD6820C1AF7E38F00C2B1DF /* SwiftHoedown */,
 			);
 		};
 /* End PBXProject section */
@@ -256,7 +256,6 @@
 				INFOPLIST_FILE = "swift-hoedown/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_MODULE_NAME = SwiftHoedown;
 				PRODUCT_NAME = swift_hoedown;
 				SKIP_INSTALL = YES;
 			};
@@ -277,7 +276,6 @@
 				INFOPLIST_FILE = "swift-hoedown/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_MODULE_NAME = SwiftHoedown;
 				PRODUCT_NAME = swift_hoedown;
 				SKIP_INSTALL = YES;
 			};
@@ -286,7 +284,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FDD682071AF7E38F00C2B1DF /* Build configuration list for PBXProject "swift-hoedown" */ = {
+		FDD682071AF7E38F00C2B1DF /* Build configuration list for PBXProject "SwiftHoedown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDD682211AF7E38F00C2B1DF /* Debug */,
@@ -295,7 +293,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDD682231AF7E38F00C2B1DF /* Build configuration list for PBXNativeTarget "swift-hoedown" */ = {
+		FDD682231AF7E38F00C2B1DF /* Build configuration list for PBXNativeTarget "SwiftHoedown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDD682241AF7E38F00C2B1DF /* Debug */,

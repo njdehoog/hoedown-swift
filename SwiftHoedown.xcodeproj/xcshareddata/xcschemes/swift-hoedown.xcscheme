@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FDD6820C1AF7E38F00C2B1DF"
                BuildableName = "swift_hoedown.framework"
-               BlueprintName = "swift-hoedown"
-               ReferencedContainer = "container:swift-hoedown.xcodeproj">
+               BlueprintName = "SwiftHoedown"
+               ReferencedContainer = "container:SwiftHoedown.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "FDD682171AF7E38F00C2B1DF"
                BuildableName = "swift-hoedownTests.xctest"
                BlueprintName = "swift-hoedownTests"
-               ReferencedContainer = "container:swift-hoedown.xcodeproj">
+               ReferencedContainer = "container:SwiftHoedown.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,8 +48,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDD6820C1AF7E38F00C2B1DF"
             BuildableName = "swift_hoedown.framework"
-            BlueprintName = "swift-hoedown"
-            ReferencedContainer = "container:swift-hoedown.xcodeproj">
+            BlueprintName = "SwiftHoedown"
+            ReferencedContainer = "container:SwiftHoedown.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -67,8 +67,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDD6820C1AF7E38F00C2B1DF"
             BuildableName = "swift_hoedown.framework"
-            BlueprintName = "swift-hoedown"
-            ReferencedContainer = "container:swift-hoedown.xcodeproj">
+            BlueprintName = "SwiftHoedown"
+            ReferencedContainer = "container:SwiftHoedown.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -85,8 +85,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDD6820C1AF7E38F00C2B1DF"
             BuildableName = "swift_hoedown.framework"
-            BlueprintName = "swift-hoedown"
-            ReferencedContainer = "container:swift-hoedown.xcodeproj">
+            BlueprintName = "SwiftHoedown"
+            ReferencedContainer = "container:SwiftHoedown.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
