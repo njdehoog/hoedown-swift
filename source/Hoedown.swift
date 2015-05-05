@@ -68,18 +68,12 @@ public struct HoedownExtensions : RawOptionSetType {
     
     public static var None: HoedownExtensions      { return self(0) }
     
-    ///-------------------------------------------------
-    /// @name block-level extensions
-    ///-------------------------------------------------
-    
+    // Block-level extensions
     public static var Tables: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_TABLES.value)) }
     public static var FencedCodeBlocks: HoedownExtensions    { return self(UInt(HOEDOWN_EXT_FENCED_CODE.value)) }
     public static var FootNotes: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_FOOTNOTES.value)) }
     
-    ///-------------------------------------------------
-    /// @name span-level extensions
-    ///-------------------------------------------------
-    
+    // Span-level extensions
     public static var AutoLinkURLs: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_AUTOLINK.value)) }
     public static var StrikeThrough: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_STRIKETHROUGH.value)) }
     public static var Underline: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_UNDERLINE.value)) }
@@ -88,18 +82,12 @@ public struct HoedownExtensions : RawOptionSetType {
     public static var Superscript: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_SUPERSCRIPT.value)) }
     public static var Math: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_MATH.value)) }
     
-    ///-------------------------------------------------
-    /// @name Other flags
-    ///-------------------------------------------------
-    
+    // Other flags
     public static var NoIntraEmphasis: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_NO_INTRA_EMPHASIS.value)) }
     public static var SpaceHeaders: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_SPACE_HEADERS.value)) }
     public static var MathExplicit: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_MATH_EXPLICIT.value)) }
     
-    ///-------------------------------------------------
-    /// @name Negative flags
-    ///-------------------------------------------------
-    
+    // Negative flags
     public static var DisableIndentedCode: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_DISABLE_INDENTED_CODE.value)) }
 }
 
