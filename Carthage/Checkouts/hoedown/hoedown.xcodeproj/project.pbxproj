@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		FD415F7B1AF8CE11008753D8 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = FD415F6B1AF8CE11008753D8 /* autolink.c */; };
-		FD415F7C1AF8CE11008753D8 /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = FD415F6C1AF8CE11008753D8 /* autolink.h */; };
+		FD415F7C1AF8CE11008753D8 /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = FD415F6C1AF8CE11008753D8 /* autolink.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD415F7D1AF8CE11008753D8 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = FD415F6D1AF8CE11008753D8 /* buffer.c */; };
-		FD415F7E1AF8CE11008753D8 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = FD415F6E1AF8CE11008753D8 /* buffer.h */; };
+		FD415F7E1AF8CE11008753D8 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = FD415F6E1AF8CE11008753D8 /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD415F7F1AF8CE11008753D8 /* document.c in Sources */ = {isa = PBXBuildFile; fileRef = FD415F6F1AF8CE11008753D8 /* document.c */; };
-		FD415F801AF8CE11008753D8 /* document.h in Headers */ = {isa = PBXBuildFile; fileRef = FD415F701AF8CE11008753D8 /* document.h */; };
+		FD415F801AF8CE11008753D8 /* document.h in Headers */ = {isa = PBXBuildFile; fileRef = FD415F701AF8CE11008753D8 /* document.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD415F811AF8CE11008753D8 /* escape.c in Sources */ = {isa = PBXBuildFile; fileRef = FD415F711AF8CE11008753D8 /* escape.c */; };
-		FD415F821AF8CE11008753D8 /* escape.h in Headers */ = {isa = PBXBuildFile; fileRef = FD415F721AF8CE11008753D8 /* escape.h */; };
+		FD415F821AF8CE11008753D8 /* escape.h in Headers */ = {isa = PBXBuildFile; fileRef = FD415F721AF8CE11008753D8 /* escape.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD415F831AF8CE11008753D8 /* html_blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = FD415F731AF8CE11008753D8 /* html_blocks.c */; };
 		FD415F841AF8CE11008753D8 /* html_smartypants.c in Sources */ = {isa = PBXBuildFile; fileRef = FD415F741AF8CE11008753D8 /* html_smartypants.c */; };
 		FD415F851AF8CE11008753D8 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = FD415F751AF8CE11008753D8 /* html.c */; };
-		FD415F861AF8CE11008753D8 /* html.h in Headers */ = {isa = PBXBuildFile; fileRef = FD415F761AF8CE11008753D8 /* html.h */; };
+		FD415F861AF8CE11008753D8 /* html.h in Headers */ = {isa = PBXBuildFile; fileRef = FD415F761AF8CE11008753D8 /* html.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD415F871AF8CE11008753D8 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = FD415F771AF8CE11008753D8 /* stack.c */; };
-		FD415F881AF8CE11008753D8 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = FD415F781AF8CE11008753D8 /* stack.h */; };
+		FD415F881AF8CE11008753D8 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = FD415F781AF8CE11008753D8 /* stack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD415F891AF8CE11008753D8 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = FD415F791AF8CE11008753D8 /* version.c */; };
-		FD415F8A1AF8CE11008753D8 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = FD415F7A1AF8CE11008753D8 /* version.h */; };
+		FD415F8A1AF8CE11008753D8 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = FD415F7A1AF8CE11008753D8 /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDD6823D1AF7E89800C2B1DF /* hoedown.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD6823C1AF7E89800C2B1DF /* hoedown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
