@@ -15,17 +15,17 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FDD6820C1AF7E38F00C2B1DF"
-               BuildableName = "swift-hoedown.framework"
+               BuildableName = "swift_hoedown.framework"
                BlueprintName = "swift-hoedown"
                ReferencedContainer = "container:swift-hoedown.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "YES"
+            buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FDD682171AF7E38F00C2B1DF"
@@ -42,22 +42,12 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FDD682171AF7E38F00C2B1DF"
-               BuildableName = "swift-hoedownTests.xctest"
-               BlueprintName = "swift-hoedownTests"
-               ReferencedContainer = "container:swift-hoedown.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDD6820C1AF7E38F00C2B1DF"
-            BuildableName = "swift-hoedown.framework"
+            BuildableName = "swift_hoedown.framework"
             BlueprintName = "swift-hoedown"
             ReferencedContainer = "container:swift-hoedown.xcodeproj">
          </BuildableReference>
@@ -68,7 +58,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
@@ -76,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDD6820C1AF7E38F00C2B1DF"
-            BuildableName = "swift-hoedown.framework"
+            BuildableName = "swift_hoedown.framework"
             BlueprintName = "swift-hoedown"
             ReferencedContainer = "container:swift-hoedown.xcodeproj">
          </BuildableReference>
@@ -94,7 +84,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDD6820C1AF7E38F00C2B1DF"
-            BuildableName = "swift-hoedown.framework"
+            BuildableName = "swift_hoedown.framework"
             BlueprintName = "swift-hoedown"
             ReferencedContainer = "container:swift-hoedown.xcodeproj">
          </BuildableReference>
