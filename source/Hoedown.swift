@@ -42,7 +42,7 @@ public class HoedownDocument {
     
     public func renderMarkdown(string: String, bufferSize: UInt = 16) -> String? {
         let buffer = hoedown_buffer_new(Int(bufferSize))
-        hoedown_document_render(self.internalDocument, buffer, string, count(string));
+        hoedown_document_render(self.internalDocument, buffer, string, string.characters.count);
         
         let htmlOutput = hoedown_buffer_cstr(buffer)
         let output = String.fromCString(htmlOutput)
@@ -69,26 +69,26 @@ public struct HoedownExtensions : RawOptionSetType {
     public static var None: HoedownExtensions      { return self(0) }
     
     // Block-level extensions
-    public static var Tables: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_TABLES.value)) }
-    public static var FencedCodeBlocks: HoedownExtensions    { return self(UInt(HOEDOWN_EXT_FENCED_CODE.value)) }
-    public static var FootNotes: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_FOOTNOTES.value)) }
+    public static var Tables: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_TABLES.rawValue)) }
+    public static var FencedCodeBlocks: HoedownExtensions    { return self(UInt(HOEDOWN_EXT_FENCED_CODE.rawValue)) }
+    public static var FootNotes: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_FOOTNOTES.rawValue)) }
     
     // Span-level extensions
-    public static var AutoLinkURLs: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_AUTOLINK.value)) }
-    public static var StrikeThrough: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_STRIKETHROUGH.value)) }
-    public static var Underline: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_UNDERLINE.value)) }
-    public static var Highlight: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_HIGHLIGHT.value)) }
-    public static var Quote: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_QUOTE.value)) }
-    public static var Superscript: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_SUPERSCRIPT.value)) }
-    public static var Math: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_MATH.value)) }
+    public static var AutoLinkURLs: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_AUTOLINK.rawValue)) }
+    public static var StrikeThrough: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_STRIKETHROUGH.rawValue)) }
+    public static var Underline: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_UNDERLINE.rawValue)) }
+    public static var Highlight: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_HIGHLIGHT.rawValue)) }
+    public static var Quote: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_QUOTE.rawValue)) }
+    public static var Superscript: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_SUPERSCRIPT.rawValue)) }
+    public static var Math: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_MATH.rawValue)) }
     
     // Other flags
-    public static var NoIntraEmphasis: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_NO_INTRA_EMPHASIS.value)) }
-    public static var SpaceHeaders: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_SPACE_HEADERS.value)) }
-    public static var MathExplicit: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_MATH_EXPLICIT.value)) }
+    public static var NoIntraEmphasis: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_NO_INTRA_EMPHASIS.rawValue)) }
+    public static var SpaceHeaders: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_SPACE_HEADERS.rawValue)) }
+    public static var MathExplicit: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_MATH_EXPLICIT.rawValue)) }
     
     // Negative flags
-    public static var DisableIndentedCode: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_DISABLE_INDENTED_CODE.value)) }
+    public static var DisableIndentedCode: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_DISABLE_INDENTED_CODE.rawValue)) }
 }
 
 public struct HoedownHTMLFlags : RawOptionSetType {
@@ -101,8 +101,8 @@ public struct HoedownHTMLFlags : RawOptionSetType {
     public static var allZeros: HoedownHTMLFlags { return self(0) }
     
     public static var None: HoedownHTMLFlags      { return self(0) }
-    public static var SkipHTML: HoedownHTMLFlags  { return self(UInt(HOEDOWN_HTML_SKIP_HTML.value)) }
-    public static var Escape: HoedownHTMLFlags    { return self(UInt(HOEDOWN_HTML_ESCAPE.value)) }
-    public static var HardWrap: HoedownHTMLFlags  { return self(UInt(HOEDOWN_HTML_HARD_WRAP.value)) }
-    public static var UseXHTML: HoedownHTMLFlags  { return self(UInt(HOEDOWN_HTML_USE_XHTML.value)) }
+    public static var SkipHTML: HoedownHTMLFlags  { return self(UInt(HOEDOWN_HTML_SKIP_HTML.rawValue)) }
+    public static var Escape: HoedownHTMLFlags    { return self(UInt(HOEDOWN_HTML_ESCAPE.rawValue)) }
+    public static var HardWrap: HoedownHTMLFlags  { return self(UInt(HOEDOWN_HTML_HARD_WRAP.rawValue)) }
+    public static var UseXHTML: HoedownHTMLFlags  { return self(UInt(HOEDOWN_HTML_USE_XHTML.rawValue)) }
 }
