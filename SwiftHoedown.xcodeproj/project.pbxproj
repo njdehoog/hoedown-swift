@@ -14,7 +14,7 @@
 
 /* Begin PBXFileReference section */
 		FDA1F0FC1AF8F6770037168C /* Hoedown.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hoedown.framework; path = Carthage/Build/Mac/Hoedown.framework; sourceTree = SOURCE_ROOT; };
-		FDD6820D1AF7E38F00C2B1DF /* swift_hoedown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = swift_hoedown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD6820D1AF7E38F00C2B1DF /* swift_hoedown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = swift_hoedown.framework; path = SwiftHoedown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD682111AF7E38F00C2B1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDD682121AF7E38F00C2B1DF /* swift-hoedown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-hoedown.h"; sourceTree = "<group>"; };
 		FDD6822B1AF7E44900C2B1DF /* Hoedown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hoedown.swift; path = source/Hoedown.swift; sourceTree = SOURCE_ROOT; };
@@ -190,6 +190,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -232,6 +233,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				TARGETED_DEVICE_FAMILY = "1,2";
