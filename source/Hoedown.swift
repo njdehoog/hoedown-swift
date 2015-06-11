@@ -57,52 +57,44 @@ public class HoedownDocument {
     }
 }
 
-public struct HoedownExtensions : RawOptionSetType {
-    public var rawValue: UInt = 0
+public struct HoedownExtensions : OptionSetType {
+    public let rawValue: UInt32
+    public init(rawValue: UInt32) { self.rawValue = rawValue }
+    init(_ value: hoedown_extensions) { self.rawValue = value.rawValue }
     
-    public init(nilLiteral: ()) { self.rawValue = 0 }
-    public init(_ value: UInt = 0) { self.rawValue = value }
-    public init(rawValue: UInt) { self.rawValue = rawValue }
-    
-    public static var allZeros: HoedownExtensions { return self(0) }
-    
-    public static var None: HoedownExtensions      { return self(0) }
+    public static let None = HoedownExtensions(rawValue: 0)
     
     // Block-level extensions
-    public static var Tables: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_TABLES.rawValue)) }
-    public static var FencedCodeBlocks: HoedownExtensions    { return self(UInt(HOEDOWN_EXT_FENCED_CODE.rawValue)) }
-    public static var FootNotes: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_FOOTNOTES.rawValue)) }
+    public static let Tables = HoedownExtensions(HOEDOWN_EXT_TABLES)
+    public static let FencedCodeBlocks = HoedownExtensions(HOEDOWN_EXT_FENCED_CODE)
+    public static let FootNotes = HoedownExtensions(HOEDOWN_EXT_FOOTNOTES)
     
     // Span-level extensions
-    public static var AutoLinkURLs: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_AUTOLINK.rawValue)) }
-    public static var StrikeThrough: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_STRIKETHROUGH.rawValue)) }
-    public static var Underline: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_UNDERLINE.rawValue)) }
-    public static var Highlight: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_HIGHLIGHT.rawValue)) }
-    public static var Quote: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_QUOTE.rawValue)) }
-    public static var Superscript: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_SUPERSCRIPT.rawValue)) }
-    public static var Math: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_MATH.rawValue)) }
+    public static let AutoLinkURLs = HoedownExtensions(HOEDOWN_EXT_AUTOLINK)
+    public static let StrikeThrough = HoedownExtensions(HOEDOWN_EXT_STRIKETHROUGH)
+    public static let Underline = HoedownExtensions(HOEDOWN_EXT_UNDERLINE)
+    public static let Highlight = HoedownExtensions(HOEDOWN_EXT_HIGHLIGHT)
+    public static let Quote = HoedownExtensions(HOEDOWN_EXT_QUOTE)
+    public static let Superscript = HoedownExtensions(HOEDOWN_EXT_SUPERSCRIPT)
+    public static let Math = HoedownExtensions(HOEDOWN_EXT_MATH)
     
     // Other flags
-    public static var NoIntraEmphasis: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_NO_INTRA_EMPHASIS.rawValue)) }
-    public static var SpaceHeaders: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_SPACE_HEADERS.rawValue)) }
-    public static var MathExplicit: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_MATH_EXPLICIT.rawValue)) }
+    public static let NoIntraEmphasis = HoedownExtensions(HOEDOWN_EXT_NO_INTRA_EMPHASIS)
+    public static let SpaceHeaders = HoedownExtensions(HOEDOWN_EXT_SPACE_HEADERS)
+    public static let MathExplicit = HoedownExtensions(HOEDOWN_EXT_MATH_EXPLICIT)
     
     // Negative flags
-    public static var DisableIndentedCode: HoedownExtensions  { return self(UInt(HOEDOWN_EXT_DISABLE_INDENTED_CODE.rawValue)) }
+    public static let DisableIndentedCode = HoedownExtensions(HOEDOWN_EXT_DISABLE_INDENTED_CODE)
 }
 
-public struct HoedownHTMLFlags : RawOptionSetType {
-    public var rawValue: UInt = 0
+public struct HoedownHTMLFlags : OptionSetType {
+    public let rawValue: UInt32
+    public init(rawValue: UInt32) { self.rawValue = rawValue }
+    init(_ value: hoedown_html_flags) { self.rawValue = value.rawValue }
     
-    public init(nilLiteral: ()) { self.rawValue = 0 }
-    public init(_ value: UInt = 0) { self.rawValue = value  }
-    public init(rawValue: UInt) { self.rawValue = rawValue }
-    
-    public static var allZeros: HoedownHTMLFlags { return self(0) }
-    
-    public static var None: HoedownHTMLFlags      { return self(0) }
-    public static var SkipHTML: HoedownHTMLFlags  { return self(UInt(HOEDOWN_HTML_SKIP_HTML.rawValue)) }
-    public static var Escape: HoedownHTMLFlags    { return self(UInt(HOEDOWN_HTML_ESCAPE.rawValue)) }
-    public static var HardWrap: HoedownHTMLFlags  { return self(UInt(HOEDOWN_HTML_HARD_WRAP.rawValue)) }
-    public static var UseXHTML: HoedownHTMLFlags  { return self(UInt(HOEDOWN_HTML_USE_XHTML.rawValue)) }
+    public static let None = HoedownHTMLFlags(rawValue: 0)
+    public static let SkipHTML = HoedownHTMLFlags(HOEDOWN_HTML_SKIP_HTML)
+    public static let Escape = HoedownHTMLFlags(HOEDOWN_HTML_ESCAPE)
+    public static let HardWrap = HoedownHTMLFlags(HOEDOWN_HTML_HARD_WRAP)
+    public static let UseXHTML = HoedownHTMLFlags(HOEDOWN_HTML_USE_XHTML)
 }
