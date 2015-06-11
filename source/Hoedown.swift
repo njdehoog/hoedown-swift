@@ -25,7 +25,7 @@ public class HoedownHTMLRenderer: HoedownRenderer  {
     public let internalRenderer: UnsafeMutablePointer<hoedown_renderer>
     
     public init(flags: HoedownHTMLFlags = .None, nestingLevel: Int = 0) {
-        self.internalRenderer = hoedown_html_renderer_new(hoedown_html_flags(UInt32(flags.rawValue)), CInt(nestingLevel))
+        self.internalRenderer = hoedown_html_renderer_new(hoedown_html_flags(flags.rawValue), CInt(nestingLevel))
     }
     
     deinit {
@@ -37,7 +37,7 @@ public class HoedownDocument {
     let internalDocument: COpaquePointer
     
     public init(renderer: HoedownRenderer, extensions: HoedownExtensions = .None, maxNesting: UInt = 16) {
-        self.internalDocument = hoedown_document_new(renderer.internalRenderer, hoedown_extensions(UInt32(extensions.rawValue)), Int(maxNesting))
+        self.internalDocument = hoedown_document_new(renderer.internalRenderer, hoedown_extensions(extensions.rawValue), Int(maxNesting))
     }
     
     public func renderMarkdown(string: String, bufferSize: UInt = 16) -> String? {
