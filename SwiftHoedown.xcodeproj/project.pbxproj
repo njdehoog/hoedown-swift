@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		FDA1F0FD1AF8F6770037168C /* Hoedown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA1F0FC1AF8F6770037168C /* Hoedown.framework */; };
-		FDD682131AF7E38F00C2B1DF /* swift-hoedown.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD682121AF7E38F00C2B1DF /* swift-hoedown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDD682131AF7E38F00C2B1DF /* SwiftHoedown.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD682121AF7E38F00C2B1DF /* SwiftHoedown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDD6822C1AF7E44900C2B1DF /* Hoedown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6822B1AF7E44900C2B1DF /* Hoedown.swift */; };
+		FDEDAFA51BA45FD80016BFD3 /* SwiftHoedown.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD682121AF7E38F00C2B1DF /* SwiftHoedown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FDA1F0FC1AF8F6770037168C /* Hoedown.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hoedown.framework; path = Carthage/Build/Mac/Hoedown.framework; sourceTree = SOURCE_ROOT; };
 		FDD6820D1AF7E38F00C2B1DF /* SwiftHoedown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftHoedown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD682111AF7E38F00C2B1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDD682121AF7E38F00C2B1DF /* swift-hoedown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-hoedown.h"; sourceTree = "<group>"; };
+		FDD682121AF7E38F00C2B1DF /* SwiftHoedown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftHoedown.h; sourceTree = "<group>"; };
 		FDD6822B1AF7E44900C2B1DF /* Hoedown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hoedown.swift; path = source/Hoedown.swift; sourceTree = SOURCE_ROOT; };
 		FDEDAF0E1BA4377F0016BFD3 /* SwiftHoedown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftHoedown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDEDAF711BA455DC0016BFD3 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
@@ -61,7 +62,7 @@
 		FDD6820F1AF7E38F00C2B1DF /* swift-hoedown */ = {
 			isa = PBXGroup;
 			children = (
-				FDD682121AF7E38F00C2B1DF /* swift-hoedown.h */,
+				FDD682121AF7E38F00C2B1DF /* SwiftHoedown.h */,
 				FDD6822B1AF7E44900C2B1DF /* Hoedown.swift */,
 				FDEDAF711BA455DC0016BFD3 /* module.modulemap */,
 				FDD682101AF7E38F00C2B1DF /* Supporting Files */,
@@ -85,7 +86,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDD682131AF7E38F00C2B1DF /* swift-hoedown.h in Headers */,
+				FDD682131AF7E38F00C2B1DF /* SwiftHoedown.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +94,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDEDAFA51BA45FD80016BFD3 /* SwiftHoedown.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

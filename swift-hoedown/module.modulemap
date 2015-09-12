@@ -1,5 +1,5 @@
 framework module SwiftHoedown {
-    umbrella header "swift-hoedown.h"
+    umbrella header "SwiftHoedown.h"
     
     export *
     module * { export * }
