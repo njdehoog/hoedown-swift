@@ -11,6 +11,7 @@
 		FDD682131AF7E38F00C2B1DF /* SwiftHoedown.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD682121AF7E38F00C2B1DF /* SwiftHoedown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDD6822C1AF7E44900C2B1DF /* Hoedown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6822B1AF7E44900C2B1DF /* Hoedown.swift */; };
 		FDEDAFA51BA45FD80016BFD3 /* SwiftHoedown.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD682121AF7E38F00C2B1DF /* SwiftHoedown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDEDAFC81BA461920016BFD3 /* Hoedown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6822B1AF7E44900C2B1DF /* Hoedown.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -203,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDEDAFC81BA461920016BFD3 /* Hoedown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
