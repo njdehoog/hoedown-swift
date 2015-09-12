@@ -18,6 +18,7 @@
 		FDD682111AF7E38F00C2B1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDD682121AF7E38F00C2B1DF /* swift-hoedown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-hoedown.h"; sourceTree = "<group>"; };
 		FDD6822B1AF7E44900C2B1DF /* Hoedown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hoedown.swift; path = source/Hoedown.swift; sourceTree = SOURCE_ROOT; };
+		FDEDAF0E1BA4377F0016BFD3 /* SwiftHoedown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftHoedown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +27,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDA1F0FD1AF8F6770037168C /* Hoedown.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDEDAF0A1BA4377F0016BFD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				FDD6820D1AF7E38F00C2B1DF /* SwiftHoedown.framework */,
+				FDEDAF0E1BA4377F0016BFD3 /* SwiftHoedown.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,12 +87,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDEDAF0B1BA4377F0016BFD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		FDD6820C1AF7E38F00C2B1DF /* SwiftHoedown */ = {
+		FDD6820C1AF7E38F00C2B1DF /* SwiftHoedownOSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDD682231AF7E38F00C2B1DF /* Build configuration list for PBXNativeTarget "SwiftHoedown" */;
+			buildConfigurationList = FDD682231AF7E38F00C2B1DF /* Build configuration list for PBXNativeTarget "SwiftHoedownOSX" */;
 			buildPhases = (
 				FDD682081AF7E38F00C2B1DF /* Sources */,
 				FDD682091AF7E38F00C2B1DF /* Frameworks */,
@@ -94,9 +110,27 @@
 			);
 			dependencies = (
 			);
-			name = SwiftHoedown;
+			name = SwiftHoedownOSX;
 			productName = "swift-hoedown";
 			productReference = FDD6820D1AF7E38F00C2B1DF /* SwiftHoedown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDEDAF0D1BA4377F0016BFD3 /* SwiftHoedowniOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDEDAF131BA4377F0016BFD3 /* Build configuration list for PBXNativeTarget "SwiftHoedowniOS" */;
+			buildPhases = (
+				FDEDAF091BA4377F0016BFD3 /* Sources */,
+				FDEDAF0A1BA4377F0016BFD3 /* Frameworks */,
+				FDEDAF0B1BA4377F0016BFD3 /* Headers */,
+				FDEDAF0C1BA4377F0016BFD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftHoedowniOS;
+			productName = SwiftHoedowniOS;
+			productReference = FDEDAF0E1BA4377F0016BFD3 /* SwiftHoedown.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -112,6 +146,9 @@
 					FDD6820C1AF7E38F00C2B1DF = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
+					FDEDAF0D1BA4377F0016BFD3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 				};
 			};
 			buildConfigurationList = FDD682071AF7E38F00C2B1DF /* Build configuration list for PBXProject "SwiftHoedown" */;
@@ -126,13 +163,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDD6820C1AF7E38F00C2B1DF /* SwiftHoedown */,
+				FDD6820C1AF7E38F00C2B1DF /* SwiftHoedownOSX */,
+				FDEDAF0D1BA4377F0016BFD3 /* SwiftHoedowniOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FDD6820B1AF7E38F00C2B1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDEDAF0C1BA4377F0016BFD3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -147,6 +192,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDD6822C1AF7E44900C2B1DF /* Hoedown.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDEDAF091BA4377F0016BFD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +336,44 @@
 			};
 			name = Release;
 		};
+		FDEDAF141BA4377F0016BFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "swift-hoedown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.invisiblepixel.SwiftHoedowniOS;
+				PRODUCT_NAME = SwiftHoedown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FDEDAF151BA4377F0016BFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "swift-hoedown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.invisiblepixel.SwiftHoedowniOS;
+				PRODUCT_NAME = SwiftHoedown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -296,7 +386,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDD682231AF7E38F00C2B1DF /* Build configuration list for PBXNativeTarget "SwiftHoedown" */ = {
+		FDD682231AF7E38F00C2B1DF /* Build configuration list for PBXNativeTarget "SwiftHoedownOSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDD682241AF7E38F00C2B1DF /* Debug */,
@@ -304,6 +394,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		FDEDAF131BA4377F0016BFD3 /* Build configuration list for PBXNativeTarget "SwiftHoedowniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDEDAF141BA4377F0016BFD3 /* Debug */,
+				FDEDAF151BA4377F0016BFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
