@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FDEDAF0D1BA4377F0016BFD3"
-               BuildableName = "SwiftHoedowniOS.framework"
+               BuildableName = "SwiftHoedown.framework"
                BlueprintName = "SwiftHoedowniOS"
                ReferencedContainer = "container:SwiftHoedown.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDEDAF0D1BA4377F0016BFD3"
-            BuildableName = "SwiftHoedowniOS.framework"
+            BuildableName = "SwiftHoedown.framework"
             BlueprintName = "SwiftHoedowniOS"
             ReferencedContainer = "container:SwiftHoedown.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDEDAF0D1BA4377F0016BFD3"
-            BuildableName = "SwiftHoedowniOS.framework"
+            BuildableName = "SwiftHoedown.framework"
             BlueprintName = "SwiftHoedowniOS"
             ReferencedContainer = "container:SwiftHoedown.xcodeproj">
          </BuildableReference>
