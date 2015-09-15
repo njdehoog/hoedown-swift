@@ -98,6 +98,7 @@
 		FD9515661BA70D570064D496 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FDFEB1181BA7153800AE7544 /* Hoedown.framework */,
 				FDEDAFC91BA462280016BFD3 /* Hoedown.framework */,
 			);
 			name = Frameworks;
@@ -119,7 +120,6 @@
 		FDD682031AF7E38F00C2B1DF = {
 			isa = PBXGroup;
 			children = (
-				FDFEB1181BA7153800AE7544 /* Hoedown.framework */,
 				FDD6820F1AF7E38F00C2B1DF /* swift-hoedown */,
 				FD9515C11BA70FFD0064D496 /* SwiftHoedownDemoOSX */,
 				FDD6820E1AF7E38F00C2B1DF /* Products */,
