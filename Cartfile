@@ -1,1 +1,1 @@
-github "njdehoog/hoedown" "master"
+github "njdehoog/hoedown" == 3.0.2
