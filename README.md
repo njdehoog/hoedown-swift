@@ -31,11 +31,12 @@ let markdownString = "# Hello Markdown"
 let htmlString = Hoedown.renderHTMLForMarkdown(markdownString, flags: .Escape)
 ```
 
-## Specify Markdown rendering extensions
+### Specify Markdown rendering extensions
+> `Hoedown` has optional support for several (unofficial) Markdown   extensions, such as non-strict emphasis, fenced code blocks, tables, auto links, strikethrough and more. 
 
 ```swift
 let markdownString = "# Hello Markdown"
-let htmlString = Hoedown.renderHTMLForMarkdown(markdown, extensions: .Tables)
+let htmlString = Hoedown.renderHTMLForMarkdown(markdown, extensions: [.Tables, .FencedCodeBlocks, .StrikeThrough])
 ```
 
 ## Contributing
