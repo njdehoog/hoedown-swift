@@ -644,6 +644,7 @@
 				INFOPLIST_FILE = "swift-hoedown/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = "swift-hoedown/module.modulemap";
 				PRODUCT_NAME = SwiftHoedown;
 				SKIP_INSTALL = YES;
@@ -666,6 +667,7 @@
 				INFOPLIST_FILE = "swift-hoedown/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = "swift-hoedown/module.modulemap";
 				PRODUCT_NAME = SwiftHoedown;
 				SKIP_INSTALL = YES;
@@ -687,7 +689,7 @@
 				);
 				INFOPLIST_FILE = "swift-hoedown/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "swift-hoedown/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.invisiblepixel.SwiftHoedowniOS;
@@ -710,7 +712,7 @@
 				);
 				INFOPLIST_FILE = "swift-hoedown/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "swift-hoedown/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.invisiblepixel.SwiftHoedowniOS;
