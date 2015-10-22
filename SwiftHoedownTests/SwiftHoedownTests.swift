@@ -17,10 +17,9 @@ class SwiftHoedownTests: XCTestCase {
         XCTAssertEqual(html, "<h1>Header 1</h1>\n")
     }
     
-    func testSmartQuotes() {
+    func testCurlyQuotes() {
         let markdown = "“This is a quote”\nFollowed by some text"
         let html = Hoedown.renderHTMLForMarkdown(markdown, flags: .None, extensions: .None)
         XCTAssertEqual(html, "<p>“This is a quote”\nFollowed by some text</p>\n")
-        // FAILS: This seems to be an issue with Hoedown. See: https://github.com/hoedown/hoedown/issues/179
     }
 }

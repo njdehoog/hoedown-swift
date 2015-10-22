@@ -42,7 +42,7 @@ public class HoedownDocument {
     
     public func renderMarkdown(string: String, bufferSize: UInt = 16) -> String? {
         let buffer = hoedown_buffer_new(Int(bufferSize))
-        hoedown_document_render(self.internalDocument, buffer, string, string.characters.count);
+        hoedown_document_render(self.internalDocument, buffer, string, string.utf8.count);
         
         let htmlOutput = hoedown_buffer_cstr(buffer)
         let output = String.fromCString(htmlOutput)
