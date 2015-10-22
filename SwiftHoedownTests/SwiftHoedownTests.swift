@@ -13,7 +13,14 @@ class SwiftHoedownTests: XCTestCase {
     
     func testHeader1() {
         let markdown = "# Header 1"
-        let html = Hoedown.renderHTMLForMarkdown(markdown)!
+        let html = Hoedown.renderHTMLForMarkdown(markdown)
         XCTAssertEqual(html, "<h1>Header 1</h1>\n")
+    }
+    
+    func testSmartQuotes() {
+        let markdown = "“This is a quote”\nFollowed by some text"
+        let html = Hoedown.renderHTMLForMarkdown(markdown, flags: .None, extensions: .None)
+        XCTAssertEqual(html, "<p>“Blogging Like a Hacker”\n<em>_Check out the project at spelt.io</em></p>\n")
+        // FAILS: This seems to be an issue with Hoedown. See: https://github.com/hoedown/hoedown/issues/179
     }
 }
