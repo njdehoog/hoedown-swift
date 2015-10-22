@@ -28,9 +28,9 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FDD682171AF7E38F00C2B1DF"
-               BuildableName = "swift-hoedownTests.xctest"
-               BlueprintName = "swift-hoedownTests"
+               BlueprintIdentifier = "FDAA920F1BD8D4770070B651"
+               BuildableName = "SwiftHoedownTests.xctest"
+               BlueprintName = "SwiftHoedownTests"
                ReferencedContainer = "container:SwiftHoedown.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,6 +42,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FDAA920F1BD8D4770070B651"
+               BuildableName = "SwiftHoedownTests.xctest"
+               BlueprintName = "SwiftHoedownTests"
+               ReferencedContainer = "container:SwiftHoedown.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
