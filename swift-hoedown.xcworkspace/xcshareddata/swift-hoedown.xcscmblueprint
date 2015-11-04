@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F8CDFA1AB5F082C8F337F4E315ED2D094C44C3D6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C56C29F46426EE134AF07DA70A636B21D9B7F11B" : 0,
+    "F8CDFA1AB5F082C8F337F4E315ED2D094C44C3D6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "265A53DE-386E-40EE-92B9-2FDB455430F7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C56C29F46426EE134AF07DA70A636B21D9B7F11B" : "..\/..",
+    "F8CDFA1AB5F082C8F337F4E315ED2D094C44C3D6" : "swift-hoedown\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "swift-hoedown",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "swift-hoedown.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/njdehoog\/Spelt.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C56C29F46426EE134AF07DA70A636B21D9B7F11B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/njdehoog\/swift-hoedown.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F8CDFA1AB5F082C8F337F4E315ED2D094C44C3D6"
+    }
+  ]
+}
