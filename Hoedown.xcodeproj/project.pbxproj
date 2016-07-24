@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 46;
+    rootObject = __RootObject_;
+    objects = {
+        __RootObject_ = {
+            isa = PBXProject;
+            attributes = {LastUpgradeCheck = 9999;};
+            buildConfigurationList = ___RootConfs_;
+            compatibilityVersion = 'Xcode 3.2';
+            developmentRegion = English;
+            hasScannedForEncodings = 0;
+            knownRegions = (en);
+            mainGroup = ___RootGroup_;
+            productRefGroup = ____Products_;
+            projectDirPath = '';
+            projectRoot = '';
+            targets = (______Target_CHoedown, ______Target_Hoedown, ______Target_HoedownTestSuite);
+        };
+        '__PBXFileRef_Package.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            name = 'Package.swift';
+            path = 'Package.swift';
+            sourceTree = '<group>';
+        };
+        ___RootGroup_ = {
+            isa = PBXGroup;
+            children = ('__PBXFileRef_Package.swift', _____Configs_, _____Sources_, Dependencies_, _______Tests_, ____Products_);
+            sourceTree = '<group>';
+        };
+        __PBXFileRef_CHoedown_Info.plist = {
+            isa = PBXFileReference;
+            lastKnownFileType = text.plist.xml;
+            name = 'CHoedown_Info.plist';
+            path = 'Hoedown.xcodeproj/CHoedown_Info.plist';
+            sourceTree = SOURCE_ROOT;
+        };
+        _______Group_CHoedown = {
+            isa = PBXGroup;
+            name = CHoedown;
+            path = 'Sources/CHoedown';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Sources/CHoedown/autolink.c', '__PBXFileRef_Sources/CHoedown/buffer.c', '__PBXFileRef_Sources/CHoedown/document.c', '__PBXFileRef_Sources/CHoedown/escape.c', '__PBXFileRef_Sources/CHoedown/hoedown.c', '__PBXFileRef_Sources/CHoedown/html.c', '__PBXFileRef_Sources/CHoedown/html_blocks.c', '__PBXFileRef_Sources/CHoedown/html_smartypants.c', '__PBXFileRef_Sources/CHoedown/stack.c', '__PBXFileRef_Sources/CHoedown/version.c', __PBXFileRef_CHoedown_Info.plist);
+        };
+        '__PBXFileRef_Sources/CHoedown/autolink.c' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.c;
+            name = 'autolink.c';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/CHoedown/buffer.c' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.c;
+            name = 'buffer.c';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/CHoedown/document.c' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.c;
+            name = 'document.c';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/CHoedown/escape.c' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.c;
+            name = 'escape.c';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/CHoedown/hoedown.c' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.c;
+            name = 'hoedown.c';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/CHoedown/html.c' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.c;
+            name = 'html.c';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/CHoedown/html_blocks.c' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.c;
+            name = 'html_blocks.c';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/CHoedown/html_smartypants.c' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.c;
+            name = 'html_smartypants.c';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/CHoedown/stack.c' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.c;
+            name = 'stack.c';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/CHoedown/version.c' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.c;
+            name = 'version.c';
+            sourceTree = '<group>';
+        };
+        ______Target_CHoedown = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_CHoedown;
+            buildPhases = (CompilePhase_CHoedown, ___LinkPhase_CHoedown);
+            buildRules = ();
+            dependencies = ();
+            name = CHoedown;
+            productName = CHoedown;
+            productReference = _____Product_CHoedown;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_CHoedown = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'CHoedown.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_CHoedown = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Sources/CHoedown/autolink.c', '__src_cc_ref_Sources/CHoedown/buffer.c', '__src_cc_ref_Sources/CHoedown/document.c', '__src_cc_ref_Sources/CHoedown/escape.c', '__src_cc_ref_Sources/CHoedown/hoedown.c', '__src_cc_ref_Sources/CHoedown/html.c', '__src_cc_ref_Sources/CHoedown/html_blocks.c', '__src_cc_ref_Sources/CHoedown/html_smartypants.c', '__src_cc_ref_Sources/CHoedown/stack.c', '__src_cc_ref_Sources/CHoedown/version.c');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Sources/CHoedown/autolink.c' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/CHoedown/autolink.c';
+        };
+        '__src_cc_ref_Sources/CHoedown/buffer.c' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/CHoedown/buffer.c';
+        };
+        '__src_cc_ref_Sources/CHoedown/document.c' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/CHoedown/document.c';
+        };
+        '__src_cc_ref_Sources/CHoedown/escape.c' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/CHoedown/escape.c';
+        };
+        '__src_cc_ref_Sources/CHoedown/hoedown.c' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/CHoedown/hoedown.c';
+        };
+        '__src_cc_ref_Sources/CHoedown/html.c' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/CHoedown/html.c';
+        };
+        '__src_cc_ref_Sources/CHoedown/html_blocks.c' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/CHoedown/html_blocks.c';
+        };
+        '__src_cc_ref_Sources/CHoedown/html_smartypants.c' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/CHoedown/html_smartypants.c';
+        };
+        '__src_cc_ref_Sources/CHoedown/stack.c' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/CHoedown/stack.c';
+        };
+        '__src_cc_ref_Sources/CHoedown/version.c' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/CHoedown/version.c';
+        };
+        ___LinkPhase_CHoedown = {
+            isa = PBXFrameworksBuildPhase;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _______Confs_CHoedown = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_CHoedown, _ReleaseConf_CHoedown);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_CHoedown = {
+            isa = XCBuildConfiguration;
+            buildSettings = { MODULEMAP_FILE = 'Hoedown.xcodeproj/GeneratedModuleMap/CHoedown/module.modulemap'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hoedown.xcodeproj/CHoedown_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; DEFINES_MODULE = 'YES'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; OTHER_LDFLAGS = '$(inherited)'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; };
+            name = Debug;
+        };
+        _ReleaseConf_CHoedown = {
+            isa = XCBuildConfiguration;
+            buildSettings = { MODULEMAP_FILE = 'Hoedown.xcodeproj/GeneratedModuleMap/CHoedown/module.modulemap'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hoedown.xcodeproj/CHoedown_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; DEFINES_MODULE = 'YES'; OTHER_LDFLAGS = '$(inherited)'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; };
+            name = Release;
+        };
+        __Dependency_CHoedown = {
+            isa = PBXTargetDependency;
+            target = ______Target_CHoedown;
+        };
+        __PBXFileRef_Hoedown_Info.plist = {
+            isa = PBXFileReference;
+            lastKnownFileType = text.plist.xml;
+            name = 'Hoedown_Info.plist';
+            path = 'Hoedown.xcodeproj/Hoedown_Info.plist';
+            sourceTree = SOURCE_ROOT;
+        };
+        _______Group_Hoedown = {
+            isa = PBXGroup;
+            name = Hoedown;
+            path = 'Sources/Hoedown';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Sources/Hoedown/Hoedown.swift', __PBXFileRef_Hoedown_Info.plist);
+        };
+        '__PBXFileRef_Sources/Hoedown/Hoedown.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            name = 'Hoedown.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_Hoedown = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_Hoedown;
+            buildPhases = (CompilePhase_Hoedown, ___LinkPhase_Hoedown);
+            buildRules = ();
+            dependencies = (__Dependency_CHoedown);
+            name = Hoedown;
+            productName = Hoedown;
+            productReference = _____Product_Hoedown;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_Hoedown = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'Hoedown.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_Hoedown = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Sources/Hoedown/Hoedown.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Sources/Hoedown/Hoedown.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/Hoedown/Hoedown.swift';
+        };
+        ___LinkPhase_Hoedown = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_CHoedown_via_Hoedown);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_CHoedown_via_Hoedown = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_CHoedown;
+        };
+        _______Confs_Hoedown = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_Hoedown, _ReleaseConf_Hoedown);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_Hoedown = {
+            isa = XCBuildConfiguration;
+            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hoedown.xcodeproj/Hoedown_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; HEADER_SEARCH_PATHS = '/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include'; OTHER_LDFLAGS = '$(inherited)'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; };
+            name = Debug;
+        };
+        _ReleaseConf_Hoedown = {
+            isa = XCBuildConfiguration;
+            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hoedown.xcodeproj/Hoedown_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; HEADER_SEARCH_PATHS = '/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include'; OTHER_LDFLAGS = '$(inherited)'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; };
+            name = Release;
+        };
+        __Dependency_Hoedown = {
+            isa = PBXTargetDependency;
+            target = ______Target_Hoedown;
+        };
+        __PBXFileRef_HoedownTestSuite_Info.plist = {
+            isa = PBXFileReference;
+            lastKnownFileType = text.plist.xml;
+            name = 'HoedownTestSuite_Info.plist';
+            path = 'Hoedown.xcodeproj/HoedownTestSuite_Info.plist';
+            sourceTree = SOURCE_ROOT;
+        };
+        _______Group_HoedownTestSuite = {
+            isa = PBXGroup;
+            name = HoedownTestSuite;
+            path = 'Tests/Hoedown';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Tests/Hoedown/HoedownTests.swift', __PBXFileRef_HoedownTestSuite_Info.plist);
+        };
+        '__PBXFileRef_Tests/Hoedown/HoedownTests.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            name = 'HoedownTests.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_HoedownTestSuite = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_HoedownTestSuite;
+            buildPhases = (CompilePhase_HoedownTestSuite, ___LinkPhase_HoedownTestSuite);
+            buildRules = ();
+            dependencies = (__Dependency_Hoedown);
+            name = HoedownTestSuite;
+            productName = HoedownTestSuite;
+            productReference = _____Product_HoedownTestSuite;
+            productType = 'com.apple.product-type.bundle.unit-test';
+        };
+        _____Product_HoedownTestSuite = {
+            isa = PBXFileReference;
+            explicitFileType = 'compiled.mach-o.wrapper.cfbundle';
+            path = 'HoedownTestSuite.xctest';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_HoedownTestSuite = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Tests/Hoedown/HoedownTests.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Tests/Hoedown/HoedownTests.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Tests/Hoedown/HoedownTests.swift';
+        };
+        ___LinkPhase_HoedownTestSuite = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_Hoedown_via_HoedownTestSuite, _LinkFileRef_CHoedown_via_HoedownTestSuite);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_Hoedown_via_HoedownTestSuite = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Hoedown;
+        };
+        _LinkFileRef_CHoedown_via_HoedownTestSuite = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_CHoedown;
+        };
+        _______Confs_HoedownTestSuite = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_HoedownTestSuite, _ReleaseConf_HoedownTestSuite);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_HoedownTestSuite = {
+            isa = XCBuildConfiguration;
+            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '@loader_path/../Frameworks'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hoedown.xcodeproj/HoedownTestSuite_Info.plist'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; EMBEDDED_CONTENT_CONTAINS_SWIFT = 'YES'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_HoedownTestSuite = {
+            isa = XCBuildConfiguration;
+            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '@loader_path/../Frameworks'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; EMBEDDED_CONTENT_CONTAINS_SWIFT = 'YES'; OTHER_LDFLAGS = '$(inherited)'; INFOPLIST_FILE = 'Hoedown.xcodeproj/HoedownTestSuite_Info.plist'; OTHER_SWIFT_FLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_HoedownTestSuite = {
+            isa = PBXTargetDependency;
+            target = ______Target_HoedownTestSuite;
+        };
+        '__PBXFileRef_Hoedown.xcodeproj/Configs/Project.xcconfig' = {
+            isa = PBXFileReference;
+            lastKnownFileType = text.xcconfig;
+            name = 'Project.xcconfig';
+            path = 'Hoedown.xcodeproj/Configs/Project.xcconfig';
+            sourceTree = '<group>';
+        };
+        _____Configs_ = {
+            isa = PBXGroup;
+            children = ('__PBXFileRef_Hoedown.xcodeproj/Configs/Project.xcconfig');
+            name = Configs;
+            sourceTree = '<group>';
+        };
+        _____Sources_ = {
+            isa = PBXGroup;
+            children = (_______Group_CHoedown, _______Group_Hoedown);
+            name = Sources;
+            sourceTree = '<group>';
+        };
+        _______Tests_ = {
+            isa = PBXGroup;
+            children = (_______Group_HoedownTestSuite);
+            name = Tests;
+            sourceTree = '<group>';
+        };
+       TestProducts_ = {
+            isa = PBXGroup;
+            children = (_____Product_HoedownTestSuite);
+            name = Tests;
+            sourceTree = '<group>';
+        };
+        ____Products_ = {
+            isa = PBXGroup;
+            children = (TestProducts_, _____Product_CHoedown, _____Product_Hoedown);
+            name = Products;
+            sourceTree = '<group>';
+        };
+        _______Debug_ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = '__PBXFileRef_Hoedown.xcodeproj/Configs/Project.xcconfig';
+            buildSettings = {};
+            name = Debug;
+        };
+        _____Release_ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = '__PBXFileRef_Hoedown.xcodeproj/Configs/Project.xcconfig';
+            buildSettings = {};
+            name = Release;
+        };
+        ___RootConfs_ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (_______Debug_, _____Release_);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+    };
+}

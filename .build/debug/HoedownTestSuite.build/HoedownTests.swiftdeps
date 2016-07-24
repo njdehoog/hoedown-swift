@@ -1,0 +1,168 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HoedownTests"
+provides-nominal:
+- "C16HoedownTestSuite12HoedownTests"
+provides-member:
+- ["C16HoedownTestSuite12HoedownTests", ""]
+provides-dynamic-lookup:
+- "testHeader1"
+- "testCurlyQuotes"
+depends-top-level:
+- "XCTestCase"
+- !private "Hoedown"
+- "HoedownTests"
+- !private "XCTAssertEqual"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "Hoedown"]
+- !private ["Ps9AnyObject", "XCTAssertEqual"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "renderHTMLForMarkdown"]
+- ["Ps9AnyObject", "testCurlyQuotes"]
+- ["Ps9AnyObject", "testHeader1"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23ArrayLiteralConvertible", "None"]
+- !private ["Ps7CVarArg", "Hoedown"]
+- !private ["Ps7CVarArg", "XCTAssertEqual"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "testCurlyQuotes"]
+- ["Ps7CVarArg", "testHeader1"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "Hoedown"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssertEqual"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "testCurlyQuotes"]
+- ["Ps28CustomDebugStringConvertible", "testHeader1"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Hoedown"]
+- !private ["Ps23CustomStringConvertible", "XCTAssertEqual"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "testCurlyQuotes"]
+- ["Ps23CustomStringConvertible", "testHeader1"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Hoedown"]
+- !private ["Ps9Equatable", "None"]
+- !private ["Ps9Equatable", "XCTAssertEqual"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "testCurlyQuotes"]
+- ["Ps9Equatable", "testHeader1"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "Hoedown"]
+- !private ["Ps8Hashable", "XCTAssertEqual"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "testCurlyQuotes"]
+- ["Ps8Hashable", "testHeader1"]
+- ["Ps8Hashable", ""]
+- !private ["C7Hoedown7Hoedown", "renderHTMLForMarkdown"]
+- !private ["V7Hoedown17HoedownExtensions", "None"]
+- !private ["V7Hoedown16HoedownHTMLFlags", "None"]
+- !private ["C16HoedownTestSuite12HoedownTests", "Hoedown"]
+- !private ["C16HoedownTestSuite12HoedownTests", "XCTAssertEqual"]
+- ["C16HoedownTestSuite12HoedownTests", "deinit"]
+- ["C16HoedownTestSuite12HoedownTests", "init"]
+- ["C16HoedownTestSuite12HoedownTests", "testCurlyQuotes"]
+- ["C16HoedownTestSuite12HoedownTests", "testHeader1"]
+- !private ["CSo8NSObject", "Hoedown"]
+- !private ["CSo8NSObject", "XCTAssertEqual"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "testCurlyQuotes"]
+- ["CSo8NSObject", "testHeader1"]
+- !private ["PSo16NSObjectProtocol", "Hoedown"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertEqual"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "testCurlyQuotes"]
+- ["PSo16NSObjectProtocol", "testHeader1"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps9OptionSet", "None"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "None"]
+- !private ["Ps10SetAlgebra", "None"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["CSo6XCTest", "Hoedown"]
+- !private ["CSo6XCTest", "XCTAssertEqual"]
+- ["CSo6XCTest", "init"]
+- ["CSo6XCTest", "testCurlyQuotes"]
+- ["CSo6XCTest", "testHeader1"]
+- !private ["CSo10XCTestCase", "Hoedown"]
+- !private ["CSo10XCTestCase", "XCTAssertEqual"]
+- ["CSo10XCTestCase", "init"]
+- ["CSo10XCTestCase", "testCurlyQuotes"]
+- ["CSo10XCTestCase", "testHeader1"]
+- ["CSo10XCTestCase", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23ArrayLiteralConvertible"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "C7Hoedown7Hoedown"
+- !private "V7Hoedown17HoedownExtensions"
+- !private "V7Hoedown16HoedownHTMLFlags"
+- "C16HoedownTestSuite12HoedownTests"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps9OptionSet"
+- !private "Sq"
+- !private "Ps16RawRepresentable"
+- !private "Ps10SetAlgebra"
+- !private "Vs12StaticString"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/Hoedown.swiftmodule"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include/stack.h"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include/html.h"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include/escape.h"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include/document.h"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include/version.h"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include/common.h"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include/buffer.h"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include/autolink.h"
+interface-hash: "a5bfab6695494979210566ebf4d0877c"

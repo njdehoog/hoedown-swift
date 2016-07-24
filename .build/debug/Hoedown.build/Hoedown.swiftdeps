@@ -1,0 +1,578 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Hoedown"
+- "HoedownRenderer"
+- "HoedownHTMLRenderer"
+- "HoedownDocument"
+- "HoedownExtensions"
+- "HoedownHTMLFlags"
+provides-nominal:
+- "C7Hoedown7Hoedown"
+- "P7Hoedown15HoedownRenderer"
+- "C7Hoedown19HoedownHTMLRenderer"
+- "C7Hoedown15HoedownDocument"
+- "V7Hoedown17HoedownExtensions"
+- "V7Hoedown16HoedownHTMLFlags"
+provides-member:
+- ["C7Hoedown7Hoedown", ""]
+- ["P7Hoedown15HoedownRenderer", ""]
+- ["C7Hoedown19HoedownHTMLRenderer", ""]
+- ["C7Hoedown15HoedownDocument", ""]
+- ["V7Hoedown17HoedownExtensions", ""]
+- ["V7Hoedown16HoedownHTMLFlags", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "hoedown_html_flags"
+- "HoedownHTMLRenderer"
+- "HOEDOWN_EXT_FENCED_CODE"
+- "HOEDOWN_EXT_AUTOLINK"
+- "HOEDOWN_EXT_MATH"
+- "HOEDOWN_EXT_UNDERLINE"
+- "HOEDOWN_EXT_QUOTE"
+- "OpaquePointer"
+- !private "hoedown_buffer_cstr"
+- "UnsafeMutablePointer"
+- "HOEDOWN_EXT_DISABLE_INDENTED_CODE"
+- !private "hoedown_html_renderer_new"
+- !private "hoedown_buffer_free"
+- !private "hoedown_buffer_new"
+- "HoedownHTMLFlags"
+- "UInt"
+- "Hoedown"
+- "hoedown_renderer"
+- !private "CInt"
+- "HoedownExtensions"
+- !private "hoedown_document_free"
+- "hoedown_extensions"
+- "HOEDOWN_HTML_SKIP_HTML"
+- "HOEDOWN_HTML_HARD_WRAP"
+- "HOEDOWN_EXT_SPACE_HEADERS"
+- "HOEDOWN_EXT_FOOTNOTES"
+- "HOEDOWN_EXT_NO_INTRA_EMPHASIS"
+- !private "hoedown_html_renderer_free"
+- "HOEDOWN_EXT_TABLES"
+- "HOEDOWN_EXT_STRIKETHROUGH"
+- "UInt32"
+- "HOEDOWN_EXT_SUPERSCRIPT"
+- "HOEDOWN_EXT_HIGHLIGHT"
+- "OptionSet"
+- !private "hoedown_document_new"
+- "HoedownRenderer"
+- "String"
+- "FloatLiteralType"
+- "Int"
+- "HoedownDocument"
+- "IntegerLiteralType"
+- "=="
+- "HOEDOWN_HTML_ESCAPE"
+- !private "hoedown_document_render"
+- "HOEDOWN_HTML_USE_XHTML"
+- "HOEDOWN_EXT_MATH_EXPLICIT"
+depends-member:
+- !private ["Ps9AnyObject", "CInt"]
+- !private ["Ps9AnyObject", "HoedownDocument"]
+- !private ["Ps9AnyObject", "HoedownHTMLRenderer"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "hoedown_buffer_cstr"]
+- !private ["Ps9AnyObject", "hoedown_buffer_free"]
+- !private ["Ps9AnyObject", "hoedown_buffer_new"]
+- !private ["Ps9AnyObject", "hoedown_document_free"]
+- !private ["Ps9AnyObject", "hoedown_document_new"]
+- !private ["Ps9AnyObject", "hoedown_document_render"]
+- !private ["Ps9AnyObject", "hoedown_extensions"]
+- !private ["Ps9AnyObject", "hoedown_html_flags"]
+- !private ["Ps9AnyObject", "hoedown_html_renderer_free"]
+- !private ["Ps9AnyObject", "hoedown_html_renderer_new"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "internalDocument"]
+- ["Ps9AnyObject", "internalRenderer"]
+- !private ["Ps9AnyObject", "renderMarkdown"]
+- ["Ps9AnyObject", ""]
+- ["Ps23ArrayLiteralConvertible", "Element"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_EXT_AUTOLINK"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_EXT_DISABLE_INDENTED_CODE"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_EXT_FENCED_CODE"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_EXT_FOOTNOTES"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_EXT_HIGHLIGHT"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_EXT_MATH"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_EXT_MATH_EXPLICIT"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_EXT_NO_INTRA_EMPHASIS"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_EXT_QUOTE"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_EXT_SPACE_HEADERS"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_EXT_STRIKETHROUGH"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_EXT_SUPERSCRIPT"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_EXT_TABLES"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_EXT_UNDERLINE"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_HTML_ESCAPE"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_HTML_HARD_WRAP"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_HTML_SKIP_HTML"]
+- ["Ps23ArrayLiteralConvertible", "HOEDOWN_HTML_USE_XHTML"]
+- ["Ps23ArrayLiteralConvertible", "HoedownExtensions"]
+- ["Ps23ArrayLiteralConvertible", "HoedownHTMLFlags"]
+- !private ["Ps23ArrayLiteralConvertible", "None"]
+- ["Ps23ArrayLiteralConvertible", "RawValue"]
+- ["Ps23ArrayLiteralConvertible", "contains"]
+- ["Ps23ArrayLiteralConvertible", "formIntersection"]
+- ["Ps23ArrayLiteralConvertible", "formSymmetricDifference"]
+- ["Ps23ArrayLiteralConvertible", "formUnion"]
+- ["Ps23ArrayLiteralConvertible", "init"]
+- ["Ps23ArrayLiteralConvertible", "insert"]
+- ["Ps23ArrayLiteralConvertible", "intersection"]
+- ["Ps23ArrayLiteralConvertible", "isDisjoint"]
+- ["Ps23ArrayLiteralConvertible", "isEmpty"]
+- ["Ps23ArrayLiteralConvertible", "isSubset"]
+- ["Ps23ArrayLiteralConvertible", "isSuperset"]
+- ["Ps23ArrayLiteralConvertible", "rawValue"]
+- ["Ps23ArrayLiteralConvertible", "remove"]
+- ["Ps23ArrayLiteralConvertible", "subtract"]
+- ["Ps23ArrayLiteralConvertible", "subtracting"]
+- ["Ps23ArrayLiteralConvertible", "symmetricDifference"]
+- ["Ps23ArrayLiteralConvertible", "union"]
+- ["Ps23ArrayLiteralConvertible", "update"]
+- ["Ps23ArrayLiteralConvertible", ""]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "utf8"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "utf8"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "IndexDistance"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "count"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "utf8"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "utf8"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps9Equatable", "Element"]
+- ["Ps9Equatable", "HOEDOWN_EXT_AUTOLINK"]
+- ["Ps9Equatable", "HOEDOWN_EXT_DISABLE_INDENTED_CODE"]
+- ["Ps9Equatable", "HOEDOWN_EXT_FENCED_CODE"]
+- ["Ps9Equatable", "HOEDOWN_EXT_FOOTNOTES"]
+- ["Ps9Equatable", "HOEDOWN_EXT_HIGHLIGHT"]
+- ["Ps9Equatable", "HOEDOWN_EXT_MATH"]
+- ["Ps9Equatable", "HOEDOWN_EXT_MATH_EXPLICIT"]
+- ["Ps9Equatable", "HOEDOWN_EXT_NO_INTRA_EMPHASIS"]
+- ["Ps9Equatable", "HOEDOWN_EXT_QUOTE"]
+- ["Ps9Equatable", "HOEDOWN_EXT_SPACE_HEADERS"]
+- ["Ps9Equatable", "HOEDOWN_EXT_STRIKETHROUGH"]
+- ["Ps9Equatable", "HOEDOWN_EXT_SUPERSCRIPT"]
+- ["Ps9Equatable", "HOEDOWN_EXT_TABLES"]
+- ["Ps9Equatable", "HOEDOWN_EXT_UNDERLINE"]
+- ["Ps9Equatable", "HOEDOWN_HTML_ESCAPE"]
+- ["Ps9Equatable", "HOEDOWN_HTML_HARD_WRAP"]
+- ["Ps9Equatable", "HOEDOWN_HTML_SKIP_HTML"]
+- ["Ps9Equatable", "HOEDOWN_HTML_USE_XHTML"]
+- ["Ps9Equatable", "HoedownExtensions"]
+- ["Ps9Equatable", "HoedownHTMLFlags"]
+- !private ["Ps9Equatable", "None"]
+- ["Ps9Equatable", "RawValue"]
+- ["Ps9Equatable", "contains"]
+- ["Ps9Equatable", "formIntersection"]
+- ["Ps9Equatable", "formSymmetricDifference"]
+- ["Ps9Equatable", "formUnion"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "insert"]
+- ["Ps9Equatable", "intersection"]
+- ["Ps9Equatable", "isDisjoint"]
+- ["Ps9Equatable", "isEmpty"]
+- ["Ps9Equatable", "isSubset"]
+- ["Ps9Equatable", "isSuperset"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "remove"]
+- ["Ps9Equatable", "subtract"]
+- ["Ps9Equatable", "subtracting"]
+- ["Ps9Equatable", "symmetricDifference"]
+- ["Ps9Equatable", "union"]
+- ["Ps9Equatable", "update"]
+- !private ["Ps9Equatable", "utf8"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "utf8"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "utf8"]
+- !private ["C7Hoedown7Hoedown", "HoedownDocument"]
+- ["C7Hoedown7Hoedown", "HoedownExtensions"]
+- ["C7Hoedown7Hoedown", "HoedownHTMLFlags"]
+- !private ["C7Hoedown7Hoedown", "HoedownHTMLRenderer"]
+- ["C7Hoedown7Hoedown", "String"]
+- ["C7Hoedown7Hoedown", "deinit"]
+- ["C7Hoedown7Hoedown", "init"]
+- ["C7Hoedown7Hoedown", "renderHTMLForMarkdown"]
+- ["C7Hoedown15HoedownDocument", "HoedownExtensions"]
+- ["C7Hoedown15HoedownDocument", "HoedownRenderer"]
+- !private ["C7Hoedown15HoedownDocument", "Int"]
+- ["C7Hoedown15HoedownDocument", "OpaquePointer"]
+- ["C7Hoedown15HoedownDocument", "String"]
+- ["C7Hoedown15HoedownDocument", "UInt"]
+- ["C7Hoedown15HoedownDocument", "deinit"]
+- !private ["C7Hoedown15HoedownDocument", "hoedown_buffer_cstr"]
+- !private ["C7Hoedown15HoedownDocument", "hoedown_buffer_free"]
+- !private ["C7Hoedown15HoedownDocument", "hoedown_buffer_new"]
+- !private ["C7Hoedown15HoedownDocument", "hoedown_document_free"]
+- !private ["C7Hoedown15HoedownDocument", "hoedown_document_new"]
+- !private ["C7Hoedown15HoedownDocument", "hoedown_document_render"]
+- !private ["C7Hoedown15HoedownDocument", "hoedown_extensions"]
+- ["C7Hoedown15HoedownDocument", "init"]
+- ["C7Hoedown15HoedownDocument", "internalDocument"]
+- ["C7Hoedown15HoedownDocument", "renderMarkdown"]
+- ["V7Hoedown17HoedownExtensions", "AutoLinkURLs"]
+- ["V7Hoedown17HoedownExtensions", "DisableIndentedCode"]
+- ["V7Hoedown17HoedownExtensions", "Element"]
+- ["V7Hoedown17HoedownExtensions", "FencedCodeBlocks"]
+- ["V7Hoedown17HoedownExtensions", "FootNotes"]
+- ["V7Hoedown17HoedownExtensions", "HOEDOWN_EXT_AUTOLINK"]
+- ["V7Hoedown17HoedownExtensions", "HOEDOWN_EXT_DISABLE_INDENTED_CODE"]
+- ["V7Hoedown17HoedownExtensions", "HOEDOWN_EXT_FENCED_CODE"]
+- ["V7Hoedown17HoedownExtensions", "HOEDOWN_EXT_FOOTNOTES"]
+- ["V7Hoedown17HoedownExtensions", "HOEDOWN_EXT_HIGHLIGHT"]
+- ["V7Hoedown17HoedownExtensions", "HOEDOWN_EXT_MATH"]
+- ["V7Hoedown17HoedownExtensions", "HOEDOWN_EXT_MATH_EXPLICIT"]
+- ["V7Hoedown17HoedownExtensions", "HOEDOWN_EXT_NO_INTRA_EMPHASIS"]
+- ["V7Hoedown17HoedownExtensions", "HOEDOWN_EXT_QUOTE"]
+- ["V7Hoedown17HoedownExtensions", "HOEDOWN_EXT_SPACE_HEADERS"]
+- ["V7Hoedown17HoedownExtensions", "HOEDOWN_EXT_STRIKETHROUGH"]
+- ["V7Hoedown17HoedownExtensions", "HOEDOWN_EXT_SUPERSCRIPT"]
+- ["V7Hoedown17HoedownExtensions", "HOEDOWN_EXT_TABLES"]
+- ["V7Hoedown17HoedownExtensions", "HOEDOWN_EXT_UNDERLINE"]
+- ["V7Hoedown17HoedownExtensions", "Highlight"]
+- ["V7Hoedown17HoedownExtensions", "HoedownExtensions"]
+- ["V7Hoedown17HoedownExtensions", "Math"]
+- ["V7Hoedown17HoedownExtensions", "MathExplicit"]
+- ["V7Hoedown17HoedownExtensions", "NoIntraEmphasis"]
+- ["V7Hoedown17HoedownExtensions", "None"]
+- ["V7Hoedown17HoedownExtensions", "Quote"]
+- ["V7Hoedown17HoedownExtensions", "RawValue"]
+- ["V7Hoedown17HoedownExtensions", "SpaceHeaders"]
+- ["V7Hoedown17HoedownExtensions", "StrikeThrough"]
+- ["V7Hoedown17HoedownExtensions", "Superscript"]
+- ["V7Hoedown17HoedownExtensions", "Tables"]
+- ["V7Hoedown17HoedownExtensions", "UInt32"]
+- ["V7Hoedown17HoedownExtensions", "Underline"]
+- ["V7Hoedown17HoedownExtensions", "contains"]
+- ["V7Hoedown17HoedownExtensions", "deinit"]
+- ["V7Hoedown17HoedownExtensions", "formIntersection"]
+- ["V7Hoedown17HoedownExtensions", "formSymmetricDifference"]
+- ["V7Hoedown17HoedownExtensions", "formUnion"]
+- ["V7Hoedown17HoedownExtensions", "hoedown_extensions"]
+- ["V7Hoedown17HoedownExtensions", "init"]
+- ["V7Hoedown17HoedownExtensions", "insert"]
+- ["V7Hoedown17HoedownExtensions", "intersection"]
+- ["V7Hoedown17HoedownExtensions", "isDisjoint"]
+- ["V7Hoedown17HoedownExtensions", "isEmpty"]
+- ["V7Hoedown17HoedownExtensions", "isSubset"]
+- ["V7Hoedown17HoedownExtensions", "isSuperset"]
+- ["V7Hoedown17HoedownExtensions", "rawValue"]
+- ["V7Hoedown17HoedownExtensions", "remove"]
+- ["V7Hoedown17HoedownExtensions", "subtract"]
+- ["V7Hoedown17HoedownExtensions", "subtracting"]
+- ["V7Hoedown17HoedownExtensions", "symmetricDifference"]
+- ["V7Hoedown17HoedownExtensions", "union"]
+- ["V7Hoedown17HoedownExtensions", "update"]
+- ["V7Hoedown16HoedownHTMLFlags", "Element"]
+- ["V7Hoedown16HoedownHTMLFlags", "Escape"]
+- ["V7Hoedown16HoedownHTMLFlags", "HOEDOWN_HTML_ESCAPE"]
+- ["V7Hoedown16HoedownHTMLFlags", "HOEDOWN_HTML_HARD_WRAP"]
+- ["V7Hoedown16HoedownHTMLFlags", "HOEDOWN_HTML_SKIP_HTML"]
+- ["V7Hoedown16HoedownHTMLFlags", "HOEDOWN_HTML_USE_XHTML"]
+- ["V7Hoedown16HoedownHTMLFlags", "HardWrap"]
+- ["V7Hoedown16HoedownHTMLFlags", "HoedownHTMLFlags"]
+- ["V7Hoedown16HoedownHTMLFlags", "None"]
+- ["V7Hoedown16HoedownHTMLFlags", "RawValue"]
+- ["V7Hoedown16HoedownHTMLFlags", "SkipHTML"]
+- ["V7Hoedown16HoedownHTMLFlags", "UInt32"]
+- ["V7Hoedown16HoedownHTMLFlags", "UseXHTML"]
+- ["V7Hoedown16HoedownHTMLFlags", "contains"]
+- ["V7Hoedown16HoedownHTMLFlags", "deinit"]
+- ["V7Hoedown16HoedownHTMLFlags", "formIntersection"]
+- ["V7Hoedown16HoedownHTMLFlags", "formSymmetricDifference"]
+- ["V7Hoedown16HoedownHTMLFlags", "formUnion"]
+- ["V7Hoedown16HoedownHTMLFlags", "hoedown_html_flags"]
+- ["V7Hoedown16HoedownHTMLFlags", "init"]
+- ["V7Hoedown16HoedownHTMLFlags", "insert"]
+- ["V7Hoedown16HoedownHTMLFlags", "intersection"]
+- ["V7Hoedown16HoedownHTMLFlags", "isDisjoint"]
+- ["V7Hoedown16HoedownHTMLFlags", "isEmpty"]
+- ["V7Hoedown16HoedownHTMLFlags", "isSubset"]
+- ["V7Hoedown16HoedownHTMLFlags", "isSuperset"]
+- ["V7Hoedown16HoedownHTMLFlags", "rawValue"]
+- ["V7Hoedown16HoedownHTMLFlags", "remove"]
+- ["V7Hoedown16HoedownHTMLFlags", "subtract"]
+- ["V7Hoedown16HoedownHTMLFlags", "subtracting"]
+- ["V7Hoedown16HoedownHTMLFlags", "symmetricDifference"]
+- ["V7Hoedown16HoedownHTMLFlags", "union"]
+- ["V7Hoedown16HoedownHTMLFlags", "update"]
+- !private ["C7Hoedown19HoedownHTMLRenderer", "CInt"]
+- ["C7Hoedown19HoedownHTMLRenderer", "HoedownHTMLFlags"]
+- ["C7Hoedown19HoedownHTMLRenderer", "Int"]
+- ["C7Hoedown19HoedownHTMLRenderer", "UnsafeMutablePointer"]
+- ["C7Hoedown19HoedownHTMLRenderer", "deinit"]
+- !private ["C7Hoedown19HoedownHTMLRenderer", "hoedown_html_flags"]
+- !private ["C7Hoedown19HoedownHTMLRenderer", "hoedown_html_renderer_free"]
+- !private ["C7Hoedown19HoedownHTMLRenderer", "hoedown_html_renderer_new"]
+- ["C7Hoedown19HoedownHTMLRenderer", "hoedown_renderer"]
+- ["C7Hoedown19HoedownHTMLRenderer", "init"]
+- ["C7Hoedown19HoedownHTMLRenderer", "internalRenderer"]
+- !private ["P7Hoedown15HoedownRenderer", "CInt"]
+- ["P7Hoedown15HoedownRenderer", "UnsafeMutablePointer"]
+- !private ["P7Hoedown15HoedownRenderer", "hoedown_html_flags"]
+- !private ["P7Hoedown15HoedownRenderer", "hoedown_html_renderer_free"]
+- !private ["P7Hoedown15HoedownRenderer", "hoedown_html_renderer_new"]
+- ["P7Hoedown15HoedownRenderer", "hoedown_renderer"]
+- !private ["P7Hoedown15HoedownRenderer", "init"]
+- ["P7Hoedown15HoedownRenderer", "internalRenderer"]
+- ["P7Hoedown15HoedownRenderer", ""]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "count"]
+- !private ["Si", "init"]
+- !private ["Vs5Int32", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "utf8"]
+- ["Ps9OptionSet", "Element"]
+- ["Ps9OptionSet", "HOEDOWN_EXT_AUTOLINK"]
+- ["Ps9OptionSet", "HOEDOWN_EXT_DISABLE_INDENTED_CODE"]
+- ["Ps9OptionSet", "HOEDOWN_EXT_FENCED_CODE"]
+- ["Ps9OptionSet", "HOEDOWN_EXT_FOOTNOTES"]
+- ["Ps9OptionSet", "HOEDOWN_EXT_HIGHLIGHT"]
+- ["Ps9OptionSet", "HOEDOWN_EXT_MATH"]
+- ["Ps9OptionSet", "HOEDOWN_EXT_MATH_EXPLICIT"]
+- ["Ps9OptionSet", "HOEDOWN_EXT_NO_INTRA_EMPHASIS"]
+- ["Ps9OptionSet", "HOEDOWN_EXT_QUOTE"]
+- ["Ps9OptionSet", "HOEDOWN_EXT_SPACE_HEADERS"]
+- ["Ps9OptionSet", "HOEDOWN_EXT_STRIKETHROUGH"]
+- ["Ps9OptionSet", "HOEDOWN_EXT_SUPERSCRIPT"]
+- ["Ps9OptionSet", "HOEDOWN_EXT_TABLES"]
+- ["Ps9OptionSet", "HOEDOWN_EXT_UNDERLINE"]
+- ["Ps9OptionSet", "HOEDOWN_HTML_ESCAPE"]
+- ["Ps9OptionSet", "HOEDOWN_HTML_HARD_WRAP"]
+- ["Ps9OptionSet", "HOEDOWN_HTML_SKIP_HTML"]
+- ["Ps9OptionSet", "HOEDOWN_HTML_USE_XHTML"]
+- ["Ps9OptionSet", "HoedownExtensions"]
+- ["Ps9OptionSet", "HoedownHTMLFlags"]
+- !private ["Ps9OptionSet", "None"]
+- ["Ps9OptionSet", "RawValue"]
+- ["Ps9OptionSet", "contains"]
+- ["Ps9OptionSet", "formIntersection"]
+- ["Ps9OptionSet", "formSymmetricDifference"]
+- ["Ps9OptionSet", "formUnion"]
+- ["Ps9OptionSet", "init"]
+- ["Ps9OptionSet", "insert"]
+- ["Ps9OptionSet", "intersection"]
+- ["Ps9OptionSet", "isDisjoint"]
+- ["Ps9OptionSet", "isEmpty"]
+- ["Ps9OptionSet", "isSubset"]
+- ["Ps9OptionSet", "isSuperset"]
+- ["Ps9OptionSet", "rawValue"]
+- ["Ps9OptionSet", "remove"]
+- ["Ps9OptionSet", "subtract"]
+- ["Ps9OptionSet", "subtracting"]
+- ["Ps9OptionSet", "symmetricDifference"]
+- ["Ps9OptionSet", "union"]
+- ["Ps9OptionSet", "update"]
+- ["Ps9OptionSet", ""]
+- !private ["Ps12OutputStream", "init"]
+- !private ["Ps12OutputStream", "utf8"]
+- ["Ps16RawRepresentable", "Element"]
+- ["Ps16RawRepresentable", "HOEDOWN_EXT_AUTOLINK"]
+- ["Ps16RawRepresentable", "HOEDOWN_EXT_DISABLE_INDENTED_CODE"]
+- ["Ps16RawRepresentable", "HOEDOWN_EXT_FENCED_CODE"]
+- ["Ps16RawRepresentable", "HOEDOWN_EXT_FOOTNOTES"]
+- ["Ps16RawRepresentable", "HOEDOWN_EXT_HIGHLIGHT"]
+- ["Ps16RawRepresentable", "HOEDOWN_EXT_MATH"]
+- ["Ps16RawRepresentable", "HOEDOWN_EXT_MATH_EXPLICIT"]
+- ["Ps16RawRepresentable", "HOEDOWN_EXT_NO_INTRA_EMPHASIS"]
+- ["Ps16RawRepresentable", "HOEDOWN_EXT_QUOTE"]
+- ["Ps16RawRepresentable", "HOEDOWN_EXT_SPACE_HEADERS"]
+- ["Ps16RawRepresentable", "HOEDOWN_EXT_STRIKETHROUGH"]
+- ["Ps16RawRepresentable", "HOEDOWN_EXT_SUPERSCRIPT"]
+- ["Ps16RawRepresentable", "HOEDOWN_EXT_TABLES"]
+- ["Ps16RawRepresentable", "HOEDOWN_EXT_UNDERLINE"]
+- ["Ps16RawRepresentable", "HOEDOWN_HTML_ESCAPE"]
+- ["Ps16RawRepresentable", "HOEDOWN_HTML_HARD_WRAP"]
+- ["Ps16RawRepresentable", "HOEDOWN_HTML_SKIP_HTML"]
+- ["Ps16RawRepresentable", "HOEDOWN_HTML_USE_XHTML"]
+- ["Ps16RawRepresentable", "HoedownExtensions"]
+- ["Ps16RawRepresentable", "HoedownHTMLFlags"]
+- !private ["Ps16RawRepresentable", "None"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "contains"]
+- ["Ps16RawRepresentable", "formIntersection"]
+- ["Ps16RawRepresentable", "formSymmetricDifference"]
+- ["Ps16RawRepresentable", "formUnion"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "insert"]
+- ["Ps16RawRepresentable", "intersection"]
+- ["Ps16RawRepresentable", "isDisjoint"]
+- ["Ps16RawRepresentable", "isEmpty"]
+- ["Ps16RawRepresentable", "isSubset"]
+- ["Ps16RawRepresentable", "isSuperset"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "remove"]
+- ["Ps16RawRepresentable", "subtract"]
+- ["Ps16RawRepresentable", "subtracting"]
+- ["Ps16RawRepresentable", "symmetricDifference"]
+- ["Ps16RawRepresentable", "union"]
+- ["Ps16RawRepresentable", "update"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps8Sequence", "IndexDistance"]
+- ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "count"]
+- ["Ps10SetAlgebra", "Element"]
+- ["Ps10SetAlgebra", "HOEDOWN_EXT_AUTOLINK"]
+- ["Ps10SetAlgebra", "HOEDOWN_EXT_DISABLE_INDENTED_CODE"]
+- ["Ps10SetAlgebra", "HOEDOWN_EXT_FENCED_CODE"]
+- ["Ps10SetAlgebra", "HOEDOWN_EXT_FOOTNOTES"]
+- ["Ps10SetAlgebra", "HOEDOWN_EXT_HIGHLIGHT"]
+- ["Ps10SetAlgebra", "HOEDOWN_EXT_MATH"]
+- ["Ps10SetAlgebra", "HOEDOWN_EXT_MATH_EXPLICIT"]
+- ["Ps10SetAlgebra", "HOEDOWN_EXT_NO_INTRA_EMPHASIS"]
+- ["Ps10SetAlgebra", "HOEDOWN_EXT_QUOTE"]
+- ["Ps10SetAlgebra", "HOEDOWN_EXT_SPACE_HEADERS"]
+- ["Ps10SetAlgebra", "HOEDOWN_EXT_STRIKETHROUGH"]
+- ["Ps10SetAlgebra", "HOEDOWN_EXT_SUPERSCRIPT"]
+- ["Ps10SetAlgebra", "HOEDOWN_EXT_TABLES"]
+- ["Ps10SetAlgebra", "HOEDOWN_EXT_UNDERLINE"]
+- ["Ps10SetAlgebra", "HOEDOWN_HTML_ESCAPE"]
+- ["Ps10SetAlgebra", "HOEDOWN_HTML_HARD_WRAP"]
+- ["Ps10SetAlgebra", "HOEDOWN_HTML_SKIP_HTML"]
+- ["Ps10SetAlgebra", "HOEDOWN_HTML_USE_XHTML"]
+- ["Ps10SetAlgebra", "HoedownExtensions"]
+- ["Ps10SetAlgebra", "HoedownHTMLFlags"]
+- !private ["Ps10SetAlgebra", "None"]
+- ["Ps10SetAlgebra", "RawValue"]
+- ["Ps10SetAlgebra", "contains"]
+- ["Ps10SetAlgebra", "formIntersection"]
+- ["Ps10SetAlgebra", "formSymmetricDifference"]
+- ["Ps10SetAlgebra", "formUnion"]
+- ["Ps10SetAlgebra", "init"]
+- ["Ps10SetAlgebra", "insert"]
+- ["Ps10SetAlgebra", "intersection"]
+- ["Ps10SetAlgebra", "isDisjoint"]
+- ["Ps10SetAlgebra", "isEmpty"]
+- ["Ps10SetAlgebra", "isSubset"]
+- ["Ps10SetAlgebra", "isSuperset"]
+- ["Ps10SetAlgebra", "rawValue"]
+- ["Ps10SetAlgebra", "remove"]
+- ["Ps10SetAlgebra", "subtract"]
+- ["Ps10SetAlgebra", "subtracting"]
+- ["Ps10SetAlgebra", "symmetricDifference"]
+- ["Ps10SetAlgebra", "union"]
+- ["Ps10SetAlgebra", "update"]
+- ["Ps10SetAlgebra", ""]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Streamable", "utf8"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "utf8"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps30StringInterpolationConvertible", "utf8"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "utf8"]
+- !private ["VSS8UTF8View", "IndexDistance"]
+- !private ["VSS8UTF8View", "count"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "utf8"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "utf8"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "utf8"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "utf8"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "utf8"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["VSC18hoedown_extensions", "init"]
+- !private ["VSC18hoedown_extensions", "rawValue"]
+- !private ["VSC18hoedown_html_flags", "init"]
+- !private ["VSC18hoedown_html_flags", "rawValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps23ArrayLiteralConvertible"
+- !private "Ps17BitwiseOperations"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps8Hashable"
+- "C7Hoedown7Hoedown"
+- "C7Hoedown15HoedownDocument"
+- "V7Hoedown17HoedownExtensions"
+- "V7Hoedown16HoedownHTMLFlags"
+- "C7Hoedown19HoedownHTMLRenderer"
+- "P7Hoedown15HoedownRenderer"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Si"
+- !private "Vs5Int32"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25IntegerLiteralConvertible"
+- "Ps16IteratorProtocol"
+- !private "Ps10MirrorPath"
+- "Ps9OptionSet"
+- !private "Ps12OutputStream"
+- "Ps16RawRepresentable"
+- "Ps8Sequence"
+- "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "VSS8UTF8View"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "VSC18hoedown_extensions"
+- !private "VSC18hoedown_html_flags"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include/stack.h"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include/html.h"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include/escape.h"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include/document.h"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include/version.h"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include/common.h"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include/buffer.h"
+- "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include/autolink.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+interface-hash: "37d6d397d762db217be49548e7ac7a16"

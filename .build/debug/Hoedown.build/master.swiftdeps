@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.34.6 clang-800.0.33)"
+options: "c202649c8ba291e4290c598fbdc9fbee"
+build_time: [522702253, 579487000]
+inputs:
+  "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/Hoedown/Hoedown.swift": [522438796, 0]

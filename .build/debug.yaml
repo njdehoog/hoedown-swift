@@ -1,0 +1,134 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "test": ["<Hoedown.module>","<HoedownTestSuite.module>","<CHoedown.dylib>","<HoedownTests.test>"]
+  "main": ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/autolink.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/buffer.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/document.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/escape.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/hoedown.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html_blocks.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html_smartypants.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/stack.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/version.c.o","<Hoedown.module>","<CHoedown.dylib>"]
+default: "main"
+commands: 
+  "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/autolink.c.o":
+    tool: clang
+    description: "Compile CHoedown autolink.c"
+    inputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/autolink.c"]
+    outputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/autolink.c.o"]
+    args: "clang -F /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -fobjc-arc -fmodules -fmodule-name=CHoedown -fmodules-cache-path=/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/ModuleCache -g -O0 -MD -MT dependencies -MF /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/autolink.c.d -c /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/autolink.c -o /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/autolink.c.o -I /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include"
+    deps: "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/autolink.c.d"
+
+  "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/buffer.c.o":
+    tool: clang
+    description: "Compile CHoedown buffer.c"
+    inputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/buffer.c"]
+    outputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/buffer.c.o"]
+    args: "clang -F /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -fobjc-arc -fmodules -fmodule-name=CHoedown -fmodules-cache-path=/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/ModuleCache -g -O0 -MD -MT dependencies -MF /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/buffer.c.d -c /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/buffer.c -o /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/buffer.c.o -I /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include"
+    deps: "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/buffer.c.d"
+
+  "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/document.c.o":
+    tool: clang
+    description: "Compile CHoedown document.c"
+    inputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/document.c"]
+    outputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/document.c.o"]
+    args: "clang -F /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -fobjc-arc -fmodules -fmodule-name=CHoedown -fmodules-cache-path=/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/ModuleCache -g -O0 -MD -MT dependencies -MF /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/document.c.d -c /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/document.c -o /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/document.c.o -I /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include"
+    deps: "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/document.c.d"
+
+  "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/escape.c.o":
+    tool: clang
+    description: "Compile CHoedown escape.c"
+    inputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/escape.c"]
+    outputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/escape.c.o"]
+    args: "clang -F /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -fobjc-arc -fmodules -fmodule-name=CHoedown -fmodules-cache-path=/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/ModuleCache -g -O0 -MD -MT dependencies -MF /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/escape.c.d -c /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/escape.c -o /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/escape.c.o -I /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include"
+    deps: "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/escape.c.d"
+
+  "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/hoedown.c.o":
+    tool: clang
+    description: "Compile CHoedown hoedown.c"
+    inputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/hoedown.c"]
+    outputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/hoedown.c.o"]
+    args: "clang -F /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -fobjc-arc -fmodules -fmodule-name=CHoedown -fmodules-cache-path=/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/ModuleCache -g -O0 -MD -MT dependencies -MF /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/hoedown.c.d -c /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/hoedown.c -o /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/hoedown.c.o -I /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include"
+    deps: "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/hoedown.c.d"
+
+  "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html.c.o":
+    tool: clang
+    description: "Compile CHoedown html.c"
+    inputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/html.c"]
+    outputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html.c.o"]
+    args: "clang -F /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -fobjc-arc -fmodules -fmodule-name=CHoedown -fmodules-cache-path=/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/ModuleCache -g -O0 -MD -MT dependencies -MF /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html.c.d -c /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/html.c -o /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html.c.o -I /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include"
+    deps: "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html.c.d"
+
+  "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html_blocks.c.o":
+    tool: clang
+    description: "Compile CHoedown html_blocks.c"
+    inputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/html_blocks.c"]
+    outputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html_blocks.c.o"]
+    args: "clang -F /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -fobjc-arc -fmodules -fmodule-name=CHoedown -fmodules-cache-path=/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/ModuleCache -g -O0 -MD -MT dependencies -MF /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html_blocks.c.d -c /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/html_blocks.c -o /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html_blocks.c.o -I /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include"
+    deps: "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html_blocks.c.d"
+
+  "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html_smartypants.c.o":
+    tool: clang
+    description: "Compile CHoedown html_smartypants.c"
+    inputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/html_smartypants.c"]
+    outputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html_smartypants.c.o"]
+    args: "clang -F /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -fobjc-arc -fmodules -fmodule-name=CHoedown -fmodules-cache-path=/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/ModuleCache -g -O0 -MD -MT dependencies -MF /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html_smartypants.c.d -c /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/html_smartypants.c -o /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html_smartypants.c.o -I /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include"
+    deps: "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html_smartypants.c.d"
+
+  "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/stack.c.o":
+    tool: clang
+    description: "Compile CHoedown stack.c"
+    inputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/stack.c"]
+    outputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/stack.c.o"]
+    args: "clang -F /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -fobjc-arc -fmodules -fmodule-name=CHoedown -fmodules-cache-path=/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/ModuleCache -g -O0 -MD -MT dependencies -MF /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/stack.c.d -c /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/stack.c -o /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/stack.c.o -I /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include"
+    deps: "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/stack.c.d"
+
+  "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/version.c.o":
+    tool: clang
+    description: "Compile CHoedown version.c"
+    inputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/version.c"]
+    outputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/version.c.o"]
+    args: "clang -F /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -fobjc-arc -fmodules -fmodule-name=CHoedown -fmodules-cache-path=/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/ModuleCache -g -O0 -MD -MT dependencies -MF /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/version.c.d -c /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/version.c -o /Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/version.c.o -I /Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include"
+    deps: "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/version.c.d"
+
+  "<Hoedown.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "Hoedown"
+    module-output-path: "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/Hoedown.swiftmodule"
+    inputs: ["<CHoedown.dylib>"]
+    outputs: ["<Hoedown.module>","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/Hoedown.build/Hoedown.swift.o"]
+    import-paths: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug"]
+    temps-path: "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/Hoedown.build"
+    objects: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/Hoedown.build/Hoedown.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-F","/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-Xcc","-fmodule-map-file=/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/module.modulemap","-module-cache-path","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/ModuleCache"]
+    sources: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/Hoedown/Hoedown.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<HoedownTestSuite.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "HoedownTestSuite"
+    module-output-path: "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/HoedownTestSuite.swiftmodule"
+    inputs: ["<Hoedown.module>","<CHoedown.dylib>"]
+    outputs: ["<HoedownTestSuite.module>","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/HoedownTestSuite.build/HoedownTests.swift.o"]
+    import-paths: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug"]
+    temps-path: "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/HoedownTestSuite.build"
+    objects: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/HoedownTestSuite.build/HoedownTests.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-F","/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-Xcc","-fmodule-map-file=/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/module.modulemap","-module-cache-path","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/ModuleCache"]
+    sources: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Tests/Hoedown/HoedownTests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<CHoedown.dylib>":
+    tool: shell
+    description: "Linking CHoedown"
+    inputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/autolink.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/buffer.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/document.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/escape.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/hoedown.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html_blocks.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html_smartypants.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/stack.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/version.c.o"]
+    outputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/libCHoedown.dylib","<CHoedown.dylib>"]
+    args: ["clang","-F","/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-L/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/autolink.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/buffer.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/document.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/escape.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/hoedown.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html_blocks.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/html_smartypants.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/stack.c.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/CHoedown.build/version.c.o","-shared","-o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/libCHoedown.dylib"]
+
+  "<HoedownTests.test>":
+    tool: shell
+    description: "Linking .build/debug/HoedownTests.xctest/Contents/MacOS/HoedownTests"
+    inputs: ["/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/HoedownTestSuite.build/HoedownTests.swift.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/Hoedown.build/Hoedown.swift.o"]
+    outputs: ["<HoedownTests.test>","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/HoedownTests.xctest/Contents/MacOS/HoedownTests"]
+    args: ["/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-g","-L/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug","-o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/HoedownTests.xctest/Contents/MacOS/HoedownTests","-F","/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-module-name","HoedownTests","-Xlinker","-bundle","-F","/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/HoedownTestSuite.build/HoedownTests.swift.o","/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/Hoedown.build/Hoedown.swift.o"]
+

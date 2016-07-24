@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/HoedownTestSuite.build/master.swiftdeps"
+  },
+  "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Tests/Hoedown/HoedownTests.swift": {
+    "dependencies": "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/HoedownTestSuite.build/HoedownTests.d",
+    "object": "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/HoedownTestSuite.build/HoedownTests.swift.o",
+    "swiftmodule": "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/HoedownTestSuite.build/HoedownTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/.build/debug/HoedownTestSuite.build/HoedownTests.swiftdeps"
+  }
+}
