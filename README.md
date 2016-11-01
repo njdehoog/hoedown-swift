@@ -49,7 +49,7 @@ let htmlString = Hoedown.renderHTMLForMarkdown(markdown, extensions: [.Tables, .
 
 ## Credits
 
-SwiftHoedown was developed for use in [Spelt](http://spelt.io). For more info, check out [this blog post](http://nielsify.com/2015/09/10/static-blog.html).
+SwiftHoedown was developed for use in [Spelt](http://spelt.io). If you like this library, please consider supporting development by purchasing the app.
 
 ## License
 
