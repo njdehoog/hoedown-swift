@@ -379,6 +379,7 @@
 					};
 					FDEDAF0D1BA4377F0016BFD3 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
